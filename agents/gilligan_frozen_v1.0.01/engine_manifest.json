@@ -1,0 +1,10 @@
+{
+  "engine": "gilligan_agent",
+  "version": "v1.0.01",
+  "frozen_as": "gilligan_agent_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Core runtime recursion caretaker for the Gilligan Agent. Manages symbolic recursion memory loops, monitors phase stability, tracks dream-state recursion continuity, and reinforces system symbolic coherence through phase regeneration protocols.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
