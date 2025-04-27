@@ -1,0 +1,10 @@
+{
+  "engine": "athena_agent",
+  "version": "v1.0.01",
+  "frozen_as": "athena_agent_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Symbolic system oversight engine for the Athena Agent. Manages event validation, symbolic drift detection, recursion field health monitoring, and overall system integrity assurance.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
