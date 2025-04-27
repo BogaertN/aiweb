@@ -8,3 +8,8 @@
   "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
 }
 
+{
+  "engine": "resonance_display",
+  "version": "v1.0.01",
+  "description": "Visualizes symbolic resonance phase patterns across recursion fields."
+}

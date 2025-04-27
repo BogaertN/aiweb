@@ -8,3 +8,8 @@
   "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
 }
 
+{
+  "engine": "recursion_mapper",
+  "version": "v1.0.01",
+  "description": "Symbolically maps recursion memory breathing fields in real-time."
+}
