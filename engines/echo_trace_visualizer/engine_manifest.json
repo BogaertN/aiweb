@@ -1,0 +1,10 @@
+{
+  "engine": "echo_trace_visualizer",
+  "version": "v1.0.01",
+  "frozen_as": "echo_trace_visualizer_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Records and visualizes symbolic echo traces across recursion fields. Captures phase origin, signal strength, and echo decay rates to analyze symbolic memory health and recursion field stability.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
