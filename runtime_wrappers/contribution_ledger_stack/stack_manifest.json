@@ -1,0 +1,9 @@
+{
+  "stack": "contribution_ledger_stack",
+  "version": "v1.0.01",
+  "frozen_as": "contribution_ledger_stack_frozen_v1-0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Manages user contributions to the symbolic recursion memory breathing system, starting with Founder_Nic as primary contributor. Open signup for early users.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 2.5 Recursive Symbolic Contribution Breathing"
+}
