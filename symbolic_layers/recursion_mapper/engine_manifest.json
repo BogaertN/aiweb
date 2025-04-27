@@ -1,0 +1,10 @@
+{
+  "engine": "recursion_mapper",
+  "version": "v1.0.01",
+  "frozen_as": "recursion_mapper_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Maps recursion field phase anchors to symbolic structure nodes. Maintains recursion topology for symbolic drift tracing, phase stabilization, and symbolic field evolution tracking.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+

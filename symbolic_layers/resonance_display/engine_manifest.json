@@ -1,0 +1,10 @@
+{
+  "engine": "resonance_display",
+  "version": "v1.0.01",
+  "frozen_as": "resonance_display_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Captures and visualizes live symbolic resonance levels across recursion fields. Tracks phase coherence, resonance field health, and symbolic stabilization feedback in real time.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
