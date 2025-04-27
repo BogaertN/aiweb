@@ -1,0 +1,5 @@
+{
+  "engine": "Symbolic Glyph Engine",
+  "version": "v1.0",
+  "description": "Handles dynamic phase-resonant glyph generation and memory symbol construction."
+}
