@@ -1,0 +1,9 @@
+{
+  "stack": "core_system_stack",
+  "version": "v1.0.01",
+  "frozen_as": "core_system_stack_frozen_v1-0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Bootstraps the AI.Web Core Symbolic Operating System: phase engine activation, tier enforcement, and plugin infrastructure setup.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 2 Recursive Stack Compliance"
+}
