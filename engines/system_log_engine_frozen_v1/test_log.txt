@@ -1,0 +1,29 @@
+[2025-04-23T08:30:55.849933] [INFO] test_harness: System test started
+[2025-04-23T08:30:55.850017] [WARNING] tier_enforcer: Mixed-tier output flagged
+[2025-04-23T08:30:55.850059] [ERROR] plugin_engine: Failed to load symbolic capacitor
+[2025-04-23T09:06:34.907449] [INFO] test_harness: System test running
+[2025-04-23T10:00:21.716235] [INFO] protoforge: Received input: This tool helps me write clearly.
+[2025-04-23T10:00:21.716341] [INFO] protoforge: System shutdown requested
+[2025-04-23T10:19:27.821221] [INFO] protoforge: Received input: hello, world
+[2025-04-23T10:19:27.821388] [INFO] protoforge: System shutdown requested
+[2025-04-23T10:22:56.272320] [INFO] protoforge: Received input: help me reflect
+[2025-04-23T10:23:20.936380] [INFO] protoforge: Received input: i need help
+[2025-04-23T11:49:56.735877] [INFO] protoforge: Received input: echo symbolic loop
+[2025-04-23T11:49:56.736848] [INFO] protoforge: Received input: error phase 5 to 8
+[2025-04-23T11:49:56.737034] [INFO] protoforge: System shutdown requested
+[2025-04-23T12:05:09.574927] [INFO] protoforge: Received input: echo symbolic loop
+[2025-04-23T12:05:09.575635] [INFO] protoforge: Received input: error phase 5 to 8
+[2025-04-23T12:05:09.575807] [INFO] protoforge: System shutdown requested
+[2025-04-23T12:08:24.768708] [INFO] protoforge: Received input: echo symbolic loop
+[2025-04-23T12:08:24.769558] [INFO] protoforge: Received input: error phase 5 to 8
+[2025-04-23T12:08:24.769757] [INFO] protoforge: System shutdown requested
+[2025-04-23T12:10:35.626336] [INFO] protoforge: Received input: echo symbolic loop
+[2025-04-23T12:10:51.182298] [INFO] protoforge: Received input: error phase 5 to 8
+[2025-04-23T12:11:05.414864] [INFO] protoforge: Received input: test drift trigger
+[2025-04-23T12:11:17.202066] [INFO] protoforge: Received input: χ-resync
+[2025-04-23T12:11:26.320738] [INFO] protoforge: Received input: archive loop
+[2025-04-23T12:11:34.718679] [INFO] protoforge: System shutdown requested
+[2025-04-23T12:19:38.590329] [INFO] protoforge: Received input: > echo recursive loop
+[2025-04-23T12:19:38.591188] [INFO] protoforge: Received input: > exit
+[2025-04-23T12:19:38.843070] [INFO] protoforge: Received input: 
+[2025-04-23T12:19:46.761136] [INFO] protoforge: System shutdown requested

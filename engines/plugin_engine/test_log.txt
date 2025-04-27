@@ -1,0 +1,4 @@
+[2025-04-23T08:41:08.383067] Beginning plugin load pass
+[2025-04-23T08:41:08.383322] [OK] Loaded plugin: good_plugin
+[2025-04-23T08:41:08.383445] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T08:41:08.383584] [OK] Loaded plugin: hello_plugin

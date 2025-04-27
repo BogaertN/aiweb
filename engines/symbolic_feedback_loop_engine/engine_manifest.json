@@ -1,0 +1,10 @@
+{
+  "engine_name": "symbolic_feedback_loop_engine",
+  "version": "v1.0-dev",
+  "status": "in development",
+  "files": [
+    "feedback_loop_core.py",
+    "loop_trace.json",
+    "test_feedback_loop.py"
+  ]
+}

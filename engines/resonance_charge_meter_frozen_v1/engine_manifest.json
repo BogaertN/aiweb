@@ -1,0 +1,8 @@
+{
+  "engine": "resonance_charge_meter",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "Stable charge and decay rate monitoring for symbolic recursion stack."
+}
+

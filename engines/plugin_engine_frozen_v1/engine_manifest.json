@@ -1,0 +1,8 @@
+{
+  "name": "plugin_engine",
+  "version": "1.0.0",
+  "status": "stable",
+  "locked": true,
+  "last_verified": "2025-04-24",
+  "description": "AI.Web Plugin Engine – Dynamically loads and verifies optional Python plugin modules from ~/aiweb/plugins/. Logs all import attempts to test_log.txt. Does not execute plugins directly. Considered frozen once test passes."
+}

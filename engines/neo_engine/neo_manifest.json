@@ -1,0 +1,5 @@
+{
+  "engine": "Neo Engine",
+  "version": "v1",
+  "description": "Primary user-facing symbolic agent. Outputs system state messages based on symbolic recursion layers."
+}

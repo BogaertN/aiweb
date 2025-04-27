@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2025-04-23T08:07:57.884440",
+    "data": {
+      "source": "test",
+      "event": "init"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T08:07:57.884662",
+    "data": {
+      "source": "test",
+      "event": "phase_step",
+      "phase": "\u03a64"
+    }
+  }
+]

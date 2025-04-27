@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Control Panel UI Engine</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>AI.Web Control Panel</h1>
+  <p>Status: UI Engine is live.</p>
+
+  <h2>Runtime Log</h2>
+<h2>Symbolic Runtime State</h2>
+<p><strong>Current Phase:</strong> {{ field_state.current_phase }}</p>
+<p><strong>Symbolic Charge:</strong> {{ field_state.symbolic_charge }}%</p>
+
+<h2>Drift Arbitration Events</h2>
+<ul>
+  {% for event in arbitration_logs %}
+    <li><strong>{{ event.timestamp }}</strong> — <em>{{ event.type }}</em>: {{ event.details }} ({{ event.severity }})</li>
+  {% endfor %}
+</ul>
+
+<!-- Visual charge bar (basic placeholder) -->
+<div style="width: 100%; background: #333; height: 20px; border-radius: 5px;">
+  <div style="width: {{ field_state.symbolic_charge }}%; background: #5f6fff; height: 100%; border-radius: 5px;"></div>
+</div>
+
+  <pre>
+    {% for line in log_lines %}
+    {{ line.strip() }}
+    {% endfor %}
+  </pre>
+</body>
+</html>

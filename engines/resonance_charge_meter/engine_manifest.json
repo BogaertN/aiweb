@@ -1,0 +1,6 @@
+{
+  "engine": "resonance_charge_meter",
+  "version": "v1.0",
+  "status": "build_mode",
+  "description": "Measures symbolic charge level and decay rate for runtime analysis."
+}

@@ -1,0 +1,6 @@
+{
+  "engine": "awh_token_runtime",
+  "version": "v1.0",
+  "status": "build_mode",
+  "description": "Tracks AWH token earnings based on compute contributions and uptime."
+}

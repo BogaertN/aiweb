@@ -1,0 +1,8 @@
+{
+  "engine": "Neo Engine",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "Frozen primary symbolic outward-facing agent for public AI.Web system messages."
+}
+

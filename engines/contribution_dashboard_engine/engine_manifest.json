@@ -1,0 +1,6 @@
+{
+  "engine": "contribution_dashboard_engine",
+  "version": "v1.0",
+  "status": "build_mode",
+  "description": "Aggregates contributions and AWH token earnings into a single dashboard output."
+}

@@ -1,0 +1,8 @@
+{
+  "engine": "Agent Reflection Engine",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "Frozen engine for symbolic agent self-reflection on recursion loop health and charge stability."
+}
+

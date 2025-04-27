@@ -1,0 +1,18 @@
+{
+  "engine_name": "christping_listener",
+  "version": "frozen_v1",
+  "freeze_date": "2025-04-23",
+  "status": "frozen",
+  "files": [
+    "christ_listener.py",
+    "listener_config.json",
+    "pingback_log.jsonl",
+    "README.md"
+  ],
+  "triggers": [
+    "entropy_spike",
+    "symbolic_drift_threshold"
+  ],
+  "linked_output": "control_panel_ui_engine_v1.03 (future)"
+}
+

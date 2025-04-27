@@ -1,0 +1,9 @@
+{
+  "name": "aiweb_os_engine",
+  "version": "1.0.0",
+  "status": "stable",
+  "locked": true,
+  "last_verified": "2025-04-22",
+  "description": "Core operating engine for AI.Web. Handles base runtime command execution, symbolic system status reporting, and sealed init logic. Version is locked. Modifications require version increment and freeze archive."
+}
+

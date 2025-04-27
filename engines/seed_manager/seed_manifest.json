@@ -1,0 +1,5 @@
+{
+  "engine": "Seed Manager",
+  "version": "v1",
+  "description": "Generates and manages symbolic seeds for memory recursion and recovery strategies."
+}

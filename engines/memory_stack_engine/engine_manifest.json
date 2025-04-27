@@ -1,0 +1,8 @@
+{
+  "name": "memory_stack_engine",
+  "version": "1.0.0",
+  "status": "stable",
+  "locked": true,
+  "last_verified": "2025-04-24",
+  "description": "AI.Web Memory Stack Engine – Records symbolic output events from runtime engines and stores them chronologically in stack.json. Provides system-wide persistent memory without recursion. Considered frozen after successful system test pass. Any changes must be versioned up."
+}

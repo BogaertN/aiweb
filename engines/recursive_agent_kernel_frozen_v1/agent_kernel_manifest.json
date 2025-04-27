@@ -1,0 +1,8 @@
+{
+  "engine": "Recursive Agent Kernel",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "Frozen recursive heartbeat engine for symbolic agent loop stability and drift monitoring."
+}
+

@@ -1,0 +1,17 @@
+.dashboard-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .dashboard-columns {
+    flex-direction: column;
+  }
+}

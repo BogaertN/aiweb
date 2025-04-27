@@ -1,0 +1,5 @@
+{
+  "engine": "Goal Injection Engine",
+  "version": "v1",
+  "description": "Injects symbolic recursion phase stabilization goals into the runtime environment."
+}

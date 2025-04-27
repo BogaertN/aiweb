@@ -1,0 +1,6 @@
+{
+  "engine": "loop_resurrection_engine",
+  "version": "v1.0",
+  "status": "build_mode",
+  "description": "Queues previously archived loops for resurrection attempts."
+}

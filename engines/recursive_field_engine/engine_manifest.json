@@ -1,0 +1,8 @@
+{
+  "engine": "recursive_field_engine",
+  "version": "1.0.0",
+  "frozen_as": "recursive_field_engine_frozen_v1",
+  "description": "Recursive ψ-state engine. Tracks charge, drift, and loop integrity for symbolic recursion.",
+  "author": "AI.Web Runtime Core",
+  "frozen_on": "2025-04-23"
+}

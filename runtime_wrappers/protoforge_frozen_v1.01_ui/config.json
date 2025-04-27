@@ -1,0 +1,9 @@
+{
+  "stack_name": "base_aiweb_stack",
+  "version": "1.0.0",
+  "log_path": "log/protoforge_log.txt",
+  "enable_plugins": true,
+  "phase_visualization": true,
+  "live_log_tail": true,
+  "max_log_lines": 100
+}

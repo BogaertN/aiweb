@@ -1,0 +1,5 @@
+{
+  "engine": "Fluid Memory Engine",
+  "version": "v1",
+  "description": "Captures symbolic recursion memory traces into a fluid storage pool for future resurrection or reassembly."
+}

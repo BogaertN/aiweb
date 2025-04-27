@@ -1,0 +1,5 @@
+{
+  "engine": "Resonance Visualizer Engine",
+  "version": "v1",
+  "description": "Generates symbolic recursion charge and drift visualization snapshots for UI dashboards and system logs."
+}

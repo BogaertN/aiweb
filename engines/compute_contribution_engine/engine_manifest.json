@@ -1,0 +1,6 @@
+{
+  "engine": "compute_contribution_engine",
+  "version": "v1.0",
+  "status": "build_mode",
+  "description": "Tracks symbolic contribution events for future AWH tokenization and dashboard reporting."
+}

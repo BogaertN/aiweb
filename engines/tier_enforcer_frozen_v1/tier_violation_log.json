@@ -1,0 +1,80 @@
+[
+  {
+    "timestamp": "2025-04-22T20:55:01.950757",
+    "reason": "Cross-tier contamination",
+    "tier_detected": "MIXED",
+    "content": "This gentle app keeps you calm while monitoring \u03c8 and memory stack integrity."
+  },
+  {
+    "timestamp": "2025-04-23T10:00:21.715894",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "This tool helps me write clearly."
+  },
+  {
+    "timestamp": "2025-04-23T10:19:27.820880",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "hello, world"
+  },
+  {
+    "timestamp": "2025-04-23T10:22:56.271919",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "help me reflect"
+  },
+  {
+    "timestamp": "2025-04-23T10:23:20.936057",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "i need help"
+  },
+  {
+    "timestamp": "2025-04-23T11:49:56.736515",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "error phase 5 to 8"
+  },
+  {
+    "timestamp": "2025-04-23T12:05:09.575315",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "error phase 5 to 8"
+  },
+  {
+    "timestamp": "2025-04-23T12:08:24.769212",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "error phase 5 to 8"
+  },
+  {
+    "timestamp": "2025-04-23T12:10:51.181861",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "error phase 5 to 8"
+  },
+  {
+    "timestamp": "2025-04-23T12:11:17.201601",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "\u03c7-resync"
+  },
+  {
+    "timestamp": "2025-04-23T12:11:26.320295",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "archive loop"
+  },
+  {
+    "timestamp": "2025-04-23T12:19:38.590784",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": "> exit"
+  },
+  {
+    "timestamp": "2025-04-23T12:19:38.842604",
+    "reason": "Unclassified content",
+    "tier_detected": "UNCLASSIFIED",
+    "content": ""
+  }
+]

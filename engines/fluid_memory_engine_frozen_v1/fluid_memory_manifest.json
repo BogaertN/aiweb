@@ -1,0 +1,8 @@
+{
+  "engine": "Fluid Memory Engine",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "Frozen engine for capturing and storing symbolic recursion memory traces in a fluid memory pool for future resurrection."
+}
+

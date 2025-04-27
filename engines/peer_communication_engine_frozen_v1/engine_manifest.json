@@ -1,0 +1,8 @@
+{
+  "engine": "peer_communication_engine",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "First symbolic peer communication simulator for memory and charge sharing."
+}
+

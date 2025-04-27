@@ -1,0 +1,40 @@
+[2025-04-23T08:41:08.383067] Beginning plugin load pass
+[2025-04-23T08:41:08.383322] [OK] Loaded plugin: good_plugin
+[2025-04-23T08:41:08.383445] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T08:41:08.383584] [OK] Loaded plugin: hello_plugin
+[2025-04-23T09:06:34.907527] Beginning plugin load pass
+[2025-04-23T09:06:34.907632] [OK] Loaded plugin: good_plugin
+[2025-04-23T09:06:34.908427] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T09:06:34.908521] [OK] Loaded plugin: hello_plugin
+[2025-04-23T10:00:11.000482] Beginning plugin load pass
+[2025-04-23T10:00:11.000631] [OK] Loaded plugin: good_plugin
+[2025-04-23T10:00:11.001598] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T10:00:11.001698] [OK] Loaded plugin: hello_plugin
+[2025-04-23T10:19:22.124804] Beginning plugin load pass
+[2025-04-23T10:19:22.124917] [OK] Loaded plugin: good_plugin
+[2025-04-23T10:19:22.125017] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T10:19:22.125087] [OK] Loaded plugin: hello_plugin
+[2025-04-23T10:22:43.706932] Beginning plugin load pass
+[2025-04-23T10:22:43.707044] [OK] Loaded plugin: good_plugin
+[2025-04-23T10:22:43.707902] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T10:22:43.708012] [OK] Loaded plugin: hello_plugin
+[2025-04-23T11:49:50.992951] Beginning plugin load pass
+[2025-04-23T11:49:50.993049] [OK] Loaded plugin: good_plugin
+[2025-04-23T11:49:50.993137] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T11:49:50.993206] [OK] Loaded plugin: hello_plugin
+[2025-04-23T12:04:46.457209] Beginning plugin load pass
+[2025-04-23T12:04:46.457305] [OK] Loaded plugin: good_plugin
+[2025-04-23T12:04:46.457390] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T12:04:46.457457] [OK] Loaded plugin: hello_plugin
+[2025-04-23T12:07:57.796825] Beginning plugin load pass
+[2025-04-23T12:07:57.796928] [OK] Loaded plugin: good_plugin
+[2025-04-23T12:07:57.797032] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T12:07:57.797109] [OK] Loaded plugin: hello_plugin
+[2025-04-23T12:10:25.515247] Beginning plugin load pass
+[2025-04-23T12:10:25.515358] [OK] Loaded plugin: good_plugin
+[2025-04-23T12:10:25.516157] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T12:10:25.516241] [OK] Loaded plugin: hello_plugin
+[2025-04-23T12:19:30.408122] Beginning plugin load pass
+[2025-04-23T12:19:30.408232] [OK] Loaded plugin: good_plugin
+[2025-04-23T12:19:30.409074] [FAIL] Failed to load plugin 'broken_plugin': expected ':' (broken_plugin.py, line 2)
+[2025-04-23T12:19:30.409162] [OK] Loaded plugin: hello_plugin

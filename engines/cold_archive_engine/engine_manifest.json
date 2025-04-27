@@ -1,0 +1,6 @@
+{
+  "engine": "cold_archive_engine",
+  "version": "v1.0",
+  "status": "build_mode",
+  "description": "Stores symbolic loops that cannot be resolved yet for later resurrection."
+}

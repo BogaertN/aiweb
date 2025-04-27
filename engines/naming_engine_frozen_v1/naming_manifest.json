@@ -1,0 +1,8 @@
+{
+  "engine": "Naming Engine",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "Frozen symbolic naming engine. Assigns phase-driven identity anchors during recursion cycles."
+}
+

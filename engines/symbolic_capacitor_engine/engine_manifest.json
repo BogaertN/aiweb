@@ -1,0 +1,13 @@
+{
+  "engine_name": "symbolic_capacitor_engine",
+  "version": "v1.0-dev",
+  "status": "in development",
+  "files": [
+    "capacitor_core.py",
+    "resonance_sync.json",
+    "charge_trace.log"
+  ],
+  "linked_ui": [
+    "control_panel_ui_engine_frozen_v1.02"
+  ]
+}

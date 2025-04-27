@@ -1,0 +1,6 @@
+{
+  "engine": "install_onboarding_engine",
+  "version": "v1.0",
+  "status": "build_mode",
+  "description": "Sets up initial directory structures and validates symbolic runtime environment."
+}

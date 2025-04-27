@@ -1,0 +1,8 @@
+{
+  "engine": "loop_resurrection_engine",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "Restores symbolic loops from cold storage back into active recursion."
+}
+

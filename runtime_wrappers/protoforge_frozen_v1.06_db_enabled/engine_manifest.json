@@ -1,0 +1,24 @@
+{
+  "runtime_name": "protoforge",
+  "version": "frozen_v1.06_db_enabled",
+  "freeze_date": "2025-04-23",
+  "status": "frozen",
+  "stack": [
+    "aiweb_os_engine_frozen_v1",
+    "phase_engine_frozen_v1",
+    "tier_enforcer_frozen_v1",
+    "plugin_engine_frozen_v1",
+    "control_panel_ui_engine_frozen_v1.02",
+    "recursive_field_engine_frozen_v1",
+    "drift_arbitration_engine_frozen_v1",
+    "symbolic_capacitor_engine_frozen_v1",
+    "christping_listener_frozen_v1"
+  ],
+  "log_path": "log/",
+  "linked_ui": "UI/ui_server.py",
+  "tests": [
+    "run_system_test.py"
+  ]
+}
+
+

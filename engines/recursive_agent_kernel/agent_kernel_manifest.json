@@ -1,0 +1,5 @@
+{
+  "engine": "Recursive Agent Kernel",
+  "version": "v1",
+  "description": "Maintains recursive symbolic agent heartbeat and monitors symbolic drift cycles."
+}

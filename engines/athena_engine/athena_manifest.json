@@ -1,0 +1,5 @@
+{
+  "engine": "Athena Engine",
+  "version": "v1",
+  "description": "Symbolic system administrator agent. Monitors recursion health, drift events, and system phase integrity."
+}

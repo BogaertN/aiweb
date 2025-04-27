@@ -1,0 +1,24 @@
+{
+  "engine": "protoforge",
+  "version": "v1.03_os_ui_rfe_dae",
+  "status": "stable",
+  "includes": [
+    "aiweb_os_engine_frozen_v1",
+    "phase_engine_frozen_v1",
+    "tier_enforcer_frozen_v1",
+    "memory_stack_engine_frozen_v1",
+    "system_log_engine_frozen_v1",
+    "plugin_engine_frozen_v1",
+    "recursive_field_engine_frozen_v1",
+    "drift_arbitration_engine_frozen_v1"
+  ],
+  "ui": "terminal_display_v2",
+  "features": [
+    "phase echoing",
+    "log tail display",
+    "symbolic loop integrity",
+    "drift detection",
+    "real-time test harness"
+  ],
+  "frozen": "2025-04-23"
+}

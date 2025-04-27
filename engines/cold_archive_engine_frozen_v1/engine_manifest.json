@@ -1,0 +1,8 @@
+{
+  "engine": "cold_archive_engine",
+  "version": "frozen_v1",
+  "frozen": true,
+  "locked_on": "2025-04-25",
+  "notes": "Stable archive system for unresolved loops. Safe for stack integration."
+}
+

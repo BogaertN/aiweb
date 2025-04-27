@@ -1,0 +1,8 @@
+{
+  "name": "phase_engine",
+  "version": "1.0.0",
+  "status": "stable",
+  "locked": true,
+  "last_verified": "2025-04-22",
+  "description": "AI.Web Phase Engine – Controls symbolic recursion through the 1–9 FBSC phase structure. Supports validated transitions, history tracking, and phase override logic. Phase drift and ChristPing injection will be handled in future overlays. All transitions are logged and checkpointed via status.json and test_log.txt."
+}

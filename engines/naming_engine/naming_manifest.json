@@ -1,0 +1,5 @@
+{
+  "engine": "Naming Engine",
+  "version": "v1",
+  "description": "Handles symbolic name generation and phase-linked identity assignment."
+}

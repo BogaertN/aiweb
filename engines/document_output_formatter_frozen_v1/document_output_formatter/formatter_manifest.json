@@ -1,0 +1,6 @@
+{
+  "engine": "document_output_formatter",
+  "version": "v1",
+  "description": "Formats and timestamps system-level output for logs, records, and exports."
+}
+

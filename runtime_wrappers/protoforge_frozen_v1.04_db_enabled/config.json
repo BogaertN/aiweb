@@ -1,0 +1,17 @@
+{
+  "runtime_name": "ProtoForge",
+  "version": "v1.03",
+  "engines": [
+    "aiweb_os_engine_frozen_v1",
+    "phase_engine_frozen_v1",
+    "tier_enforcer_frozen_v1",
+    "memory_stack_engine_frozen_v1",
+    "system_log_engine_frozen_v1",
+    "plugin_engine_frozen_v1",
+    "recursive_field_engine_frozen_v1",
+    "drift_arbitration_engine_frozen_v1"
+  ],
+  "status": "frozen",
+  "last_verified": "2025-04-23"
+}
+

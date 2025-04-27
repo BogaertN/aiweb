@@ -1,0 +1,13 @@
+{
+  "stack_name": "base_aiweb_stack",
+  "engines": [
+    "aiweb_os_engine",
+    "phase_engine",
+    "tier_enforcer",
+    "memory_stack_engine",
+    "system_log_engine",
+    "plugin_engine"
+  ],
+  "status": "working",
+  "last_verified": "2025-04-23"
+}

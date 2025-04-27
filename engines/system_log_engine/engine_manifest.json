@@ -1,0 +1,8 @@
+{
+  "name": "system_log_engine",
+  "version": "1.0.0",
+  "status": "stable",
+  "locked": true,
+  "last_verified": "2025-04-24",
+  "description": "AI.Web System Log Engine — Captures runtime messages and writes to JSONL stream and mirrored debug file. Used for phase updates, plugin messages, enforcement errors, and symbolic alerts. Considered frozen after test pass."
+}

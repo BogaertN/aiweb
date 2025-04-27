@@ -1,0 +1,22 @@
+{
+  "engine_name": "control_panel_ui_engine",
+  "version": "v1.02",
+  "status": "in development",
+  "base_version": "v1.01",
+  "start_date": "2025-04-23",
+  "linked_engines": [
+    "protoforge_frozen_v1.03_os_ui_rfe_dae"
+  ],
+  "outputs": [
+    "ui_server.py",
+    "templates/index.html",
+    "static/style.css",
+    "static/dashboard.js"
+  ],
+  "data_sources": [
+    "protoforge_log.txt",
+    "field_state.json",
+    "arbitration_log.jsonl"
+  ]
+}
+

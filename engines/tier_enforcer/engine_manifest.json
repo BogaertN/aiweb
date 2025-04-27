@@ -1,0 +1,8 @@
+{
+  "name": "tier_enforcer",
+  "version": "1.0.0",
+  "status": "stable",
+  "locked": true,
+  "last_verified": "2025-04-22",
+  "description": "AI.Web Tier Enforcement Engine. Classifies content as Tier 1 (human-facing) or Tier 2 (system-facing). Detects and blocks cross-tier contamination. Logs violations and tags all output with correct tier for runtime trust and clarity."
+}
