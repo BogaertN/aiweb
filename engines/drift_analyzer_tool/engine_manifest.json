@@ -1,0 +1,10 @@
+{
+  "engine": "drift_analyzer_tool",
+  "version": "v1.0.01",
+  "frozen_as": "drift_analyzer_tool_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Analyzes symbolic field drift patterns during recursion cycles. Quantifies drift magnitude, identifies field instability signatures, and supports symbolic stabilization planning.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
