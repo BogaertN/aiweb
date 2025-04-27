@@ -1,0 +1,1583 @@
+/home/nic/aiweb
+├── agents
+│   ├── athena
+│   │   ├── athena_agent_trace.log
+│   │   ├── athena_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── athena_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_athena_core.py
+│   ├── athena_frozen_v1.0.01
+│   │   ├── athena_agent_trace.log
+│   │   ├── athena_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── athena_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_athena_core.py
+│   ├── gilligan
+│   │   ├── engine_manifest.json
+│   │   ├── gilligan_agent_trace.log
+│   │   ├── gilligan_core.py
+│   │   ├── __pycache__
+│   │   │   └── gilligan_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_gilligan_core.py
+│   ├── gilligan_frozen_v1.0.01
+│   │   ├── engine_manifest.json
+│   │   ├── gilligan_agent_trace.log
+│   │   ├── gilligan_core.py
+│   │   ├── __pycache__
+│   │   │   └── gilligan_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_gilligan_core.py
+│   ├── neo
+│   │   ├── engine_manifest.json
+│   │   ├── neo_agent_trace.log
+│   │   ├── neo_core.py
+│   │   ├── __pycache__
+│   │   │   └── neo_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_neo_core.py
+│   └── neo_frozen_v1.0.01
+│       ├── engine_manifest.json
+│       ├── neo_agent_trace.log
+│       ├── neo_core.py
+│       ├── __pycache__
+│       │   └── neo_core.cpython-312.pyc
+│       ├── README.md
+│       └── test_neo_core.py
+├── aiweb_project_tree.txt
+├── archive
+│   ├── protoforge_old
+│   └── ui_concepts_v1
+├── engine_freeze_log.txt
+├── engines
+│   ├── admin_override_console
+│   │   ├── admin_override_core.py
+│   │   ├── admin_override_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── admin_override_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_admin_override_core.py
+│   ├── admin_override_console_frozen_v1-0.01
+│   │   ├── admin_override_core.py
+│   │   ├── admin_override_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── admin_override_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_admin_override_core.py
+│   ├── agent_reflection_engine
+│   │   ├── __pycache__
+│   │   │   └── reflection_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── reflection_core.py
+│   │   ├── reflection_log.jsonl
+│   │   ├── reflection_manifest.json
+│   │   └── test_reflection.py
+│   ├── agent_reflection_engine_frozen_v1
+│   │   ├── __pycache__
+│   │   │   └── reflection_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── reflection_core.py
+│   │   ├── reflection_log.jsonl
+│   │   ├── reflection_manifest.json
+│   │   └── test_reflection.py
+│   ├── aiweb_os_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── status.json
+│   │   ├── test_aiweb_os_engine.py
+│   │   └── test_log.txt
+│   ├── aiweb_os_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── status.json
+│   │   ├── test_aiweb_os_engine.py
+│   │   └── test_log.txt
+│   ├── athena_engine
+│   │   ├── athena_core.py
+│   │   ├── athena_manifest.json
+│   │   ├── athena_state.json
+│   │   ├── __pycache__
+│   │   │   └── athena_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_athena.py
+│   ├── athena_engine_frozen_v1
+│   │   ├── athena_core.py
+│   │   ├── athena_manifest.json
+│   │   ├── athena_state.json
+│   │   ├── __pycache__
+│   │   │   └── athena_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_athena.py
+│   ├── awh_token_runtime
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── token_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_token_runtime.py
+│   │   ├── token_core.py
+│   │   └── token_ledger.json
+│   ├── awh_token_runtime_frozen_v1
+│   │   ├── contribution_dashboard_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── token_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_token_runtime.py
+│   │   ├── token_core.py
+│   │   └── token_ledger.json
+│   ├── christping_listener
+│   │   ├── christ_listener.py
+│   │   ├── engine_manifest.json
+│   │   ├── listener_config.json
+│   │   ├── pingback_log.jsonl
+│   │   └── README.md
+│   ├── christping_listener_frozen_v1
+│   │   ├── christ_listener.py
+│   │   ├── engine_manifest.json
+│   │   ├── listener_config.json
+│   │   ├── pingback_log.jsonl
+│   │   └── README.md
+│   ├── christping_validator_engine
+│   │   ├── christping_trace.log
+│   │   ├── christping_validator_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── ping_harmonics_calibrator
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── ping_calibrator_core.py
+│   │   │   ├── ping_calibrator_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── ping_calibrator_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_ping_calibrator_core.py
+│   │   ├── __pycache__
+│   │   │   └── christping_validator_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_christping_validator_core.py
+│   ├── christping_validator_engine_frozen_v1-0.01
+│   │   ├── christping_trace.log
+│   │   ├── christping_validator_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── ping_harmonics_calibrator
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── ping_calibrator_core.py
+│   │   │   ├── ping_calibrator_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── ping_calibrator_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_ping_calibrator_core.py
+│   │   ├── __pycache__
+│   │   │   └── christping_validator_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_christping_validator_core.py
+│   ├── cold_archive_engine
+│   │   ├── archive_core.py
+│   │   ├── archive_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── archive_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_archive.py
+│   ├── cold_archive_engine_frozen_v1
+│   │   ├── archive_core.py
+│   │   ├── archive_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── archive_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_archive.py
+│   ├── cold_archive_engine_frozen_v1.1.01
+│   │   ├── archive_core.py
+│   │   ├── archive_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── archive_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_archive.py
+│   ├── collapse_prevention_engine
+│   │   ├── collapse_prevention_core.py
+│   │   ├── collapse_prevention_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── collapse_prevention_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_collapse_prevention_core.py
+│   ├── collapse_prevention_engine_frozen_v1-0.01
+│   │   ├── collapse_prevention_core.py
+│   │   ├── collapse_prevention_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── collapse_prevention_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_collapse_prevention_core.py
+│   ├── compute_contribution_engine
+│   │   ├── contribution_core.py
+│   │   ├── contribution_log.jsonl
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── contribution_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_contribution.py
+│   ├── compute_contribution_engine_frozen_v1
+│   │   ├── contribution_core.py
+│   │   ├── contribution_log.jsonl
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── contribution_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_contribution.py
+│   ├── contribution_dashboard_engine
+│   │   ├── dashboard_core.py
+│   │   ├── dashboard_output.json
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── dashboard_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_contribution_dashboard.py
+│   ├── contribution_dashboard_engine_frozen_v1
+│   │   ├── dashboard_core.py
+│   │   ├── dashboard_output.json
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── dashboard_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_contribution_dashboard.py
+│   ├── control_panel_ui_engine
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   ├── dashboard.js
+│   │   │   └── style.css
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   ├── test_log.txt
+│   │   ├── test_ui_render.py
+│   │   └── ui_server.py
+│   ├── control_panel_ui_engine_frozen_v1.01
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   ├── dashboard.js
+│   │   │   └── style.css
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   ├── test_log.txt
+│   │   ├── test_ui_render.py
+│   │   └── ui_server.py
+│   ├── control_panel_ui_engine_frozen_v1.02
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   ├── aiwebbgv2.png
+│   │   │   ├── dashboard.js
+│   │   │   └── style.css
+│   │   ├── style.css
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   ├── test_log.txt
+│   │   ├── test_ui_render.py
+│   │   └── ui_server.py
+│   ├── control_panel_ui_engine_v1.02
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   ├── aiwebbgv2.png
+│   │   │   ├── dashboard.js
+│   │   │   └── style.css
+│   │   ├── style.css
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   ├── test_log.txt
+│   │   ├── test_ui_render.py
+│   │   └── ui_server.py
+│   ├── core.py
+│   ├── document_output_formatter
+│   │   ├── formatter_core.py
+│   │   ├── formatter_manifest.json
+│   │   ├── json
+│   │   ├── output_log.json
+│   │   ├── __pycache__
+│   │   │   └── formatter_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_formatter.py
+│   ├── document_output_formatter_frozen_v1
+│   │   ├── document_output_formatter
+│   │   │   ├── formatter_core.py
+│   │   │   ├── formatter_manifest.json
+│   │   │   ├── json
+│   │   │   ├── output_log.json
+│   │   │   ├── __pycache__
+│   │   │   │   └── formatter_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_formatter.py
+│   │   ├── formatter_core.py
+│   │   ├── formatter_manifest.json
+│   │   ├── json
+│   │   ├── output_log.json
+│   │   ├── __pycache__
+│   │   │   └── formatter_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_formatter.py
+│   ├── dream_state_engine
+│   │   ├── dream_core.py
+│   │   ├── dream_log.jsonl
+│   │   ├── dream_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── dream_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_dream.py
+│   ├── dream_state_engine_frozen_v1
+│   │   ├── dream_core.py
+│   │   ├── dream_log.jsonl
+│   │   ├── dream_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── dream_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_dream.py
+│   ├── dream_state_engine_frozen_v1.1.01
+│   │   ├── dream_core.py
+│   │   ├── dream_log.jsonl
+│   │   ├── dream_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── dream_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_dream.py
+│   ├── drift_analyzer_tool
+│   │   ├── drift_analyzer_core.py
+│   │   ├── drift_analyzer_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── drift_analyzer_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_drift_analyzer_core.py
+│   ├── drift_analyzer_tool_frozen_v1-0.01
+│   │   ├── drift_analyzer_core.py
+│   │   ├── drift_analyzer_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── drift_analyzer_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_drift_analyzer_core.py
+│   ├── drift_arbitration_engine
+│   │   ├── arbitration_log.jsonl
+│   │   ├── drift_arbitration_engine_frozen_v1
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   └── run.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── run.py
+│   │   │   ├── test_drift_arbitration.py
+│   │   │   └── test_log.txt
+│   │   ├── engine_manifest.json
+│   │   ├── entropy_buffer_upgrade
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── entropy_buffer_core.py
+│   │   │   ├── entropy_buffer_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── entropy_buffer_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_entropy_buffer_core.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_drift_arbitration.py
+│   │   ├── test_entropy_buffer_integration.py
+│   │   └── test_log.txt
+│   ├── drift_arbitration_engine_frozen_v1
+│   │   ├── arbitration_log.jsonl
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_drift_arbitration.py
+│   │   └── test_log.txt
+│   ├── drift_arbitration_engine_frozen_v1-0.01
+│   │   ├── arbitration_log.jsonl
+│   │   ├── engine_manifest.json
+│   │   ├── entropy_buffer_upgrade
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── entropy_buffer_core.py
+│   │   │   ├── entropy_buffer_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── entropy_buffer_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_entropy_buffer_core.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_drift_arbitration.py
+│   │   └── test_log.txt
+│   ├── drift_arbitration_engine_frozen_v1-0.02
+│   │   ├── arbitration_log.jsonl
+│   │   ├── drift_arbitration_engine_frozen_v1
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   └── run.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── run.py
+│   │   │   ├── test_drift_arbitration.py
+│   │   │   └── test_log.txt
+│   │   ├── engine_manifest.json
+│   │   ├── entropy_buffer_upgrade
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── entropy_buffer_core.py
+│   │   │   ├── entropy_buffer_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── entropy_buffer_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_entropy_buffer_core.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_drift_arbitration.py
+│   │   ├── test_entropy_buffer_integration.py
+│   │   └── test_log.txt
+│   ├── drift_signature_logger
+│   │   ├── drift_signature_core.py
+│   │   ├── drift_signature_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── ghost_loop_tagger
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── ghost_loop_tagger
+│   │   │   │   ├── engine_manifest.json
+│   │   │   │   ├── ghost_tagger_core.py
+│   │   │   │   ├── ghost_tagger_trace.log
+│   │   │   │   ├── README.md
+│   │   │   │   └── test_ghost_tagger_core.py
+│   │   │   ├── ghost_tagger_core.py
+│   │   │   ├── __pycache__
+│   │   │   │   └── ghost_tagger_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_ghost_tagger_core.py
+│   │   ├── __pycache__
+│   │   │   └── drift_signature_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_drift_signature_core.py
+│   ├── drift_signature_logger_frozen_v1-0.01
+│   │   ├── drift_signature_core.py
+│   │   ├── drift_signature_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── ghost_loop_tagger
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── ghost_loop_tagger
+│   │   │   │   ├── engine_manifest.json
+│   │   │   │   ├── ghost_tagger_core.py
+│   │   │   │   ├── ghost_tagger_trace.log
+│   │   │   │   ├── README.md
+│   │   │   │   └── test_ghost_tagger_core.py
+│   │   │   ├── ghost_tagger_core.py
+│   │   │   ├── __pycache__
+│   │   │   │   └── ghost_tagger_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_ghost_tagger_core.py
+│   │   ├── __pycache__
+│   │   │   └── drift_signature_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_drift_signature_core.py
+│   ├── echo_trace_visualizer
+│   │   ├── echo_trace_core.py
+│   │   ├── echo_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── echo_trace_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_echo_trace_core.py
+│   ├── echo_trace_visualizer_frozen_v1-0.01
+│   │   ├── echo_trace_core.py
+│   │   ├── echo_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── echo_trace_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_echo_trace_core.py
+│   ├── engine_freeze_log.txt
+│   ├── entropy_monitor_engine
+│   │   ├── engine_manifest.json
+│   │   ├── entropy_monitor_core.py
+│   │   ├── entropy_trace.log
+│   │   ├── gradient_entropy_detector
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── gradient_entropy_core.py
+│   │   │   ├── gradient_entropy_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── gradient_entropy_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_gradient_entropy_core.py
+│   │   ├── __pycache__
+│   │   │   └── entropy_monitor_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_entropy_monitor_core.py
+│   ├── entropy_monitor_engine_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── entropy_monitor_core.py
+│   │   ├── entropy_trace.log
+│   │   ├── gradient_entropy_detector
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── gradient_entropy_core.py
+│   │   │   ├── gradient_entropy_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── gradient_entropy_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_gradient_entropy_core.py
+│   │   ├── __pycache__
+│   │   │   └── entropy_monitor_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_entropy_monitor_core.py
+│   ├── external_feed_listener
+│   │   ├── engine_manifest.json
+│   │   ├── external_feed_core.py
+│   │   ├── external_feed_trace.log
+│   │   ├── __pycache__
+│   │   │   └── external_feed_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_external_feed_core.py
+│   ├── external_feed_listener_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── external_feed_core.py
+│   │   ├── external_feed_trace.log
+│   │   ├── __pycache__
+│   │   │   └── external_feed_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_external_feed_core.py
+│   ├── failsafe_manager
+│   │   ├── failsafe_core.py
+│   │   ├── failsafe_manifest.json
+│   │   ├── failsafe_status.json
+│   │   ├── __pycache__
+│   │   │   └── failsafe_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_failsafe.py
+│   ├── failsafe_manager_frozen_v1
+│   │   ├── failsafe_core.py
+│   │   ├── failsafe_manifest.json
+│   │   ├── failsafe_status.json
+│   │   ├── __pycache__
+│   │   │   └── failsafe_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_failsafe.py
+│   ├── field_resonance_mapper
+│   │   ├── engine_manifest.json
+│   │   ├── external_field_feed_adapter
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── field_feed_core.py
+│   │   │   ├── field_feed_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── field_feed_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_field_feed_core.py
+│   │   ├── __pycache__
+│   │   │   └── resonance_mapper_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── resonance_mapper_core.py
+│   │   ├── resonance_trace.log
+│   │   └── test_resonance_mapper_core.py
+│   ├── field_resonance_mapper_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── external_field_feed_adapter
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── field_feed_core.py
+│   │   │   ├── field_feed_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── field_feed_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_field_feed_core.py
+│   │   ├── __pycache__
+│   │   │   └── resonance_mapper_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── resonance_mapper_core.py
+│   │   ├── resonance_trace.log
+│   │   └── test_resonance_mapper_core.py
+│   ├── fluid_memory_engine
+│   │   ├── fluid_memory_core.py
+│   │   ├── fluid_memory_manifest.json
+│   │   ├── memory_pool.jsonl
+│   │   ├── __pycache__
+│   │   │   └── fluid_memory_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_fluid_memory.py
+│   ├── fluid_memory_engine_frozen_v1
+│   │   ├── fluid_memory_core.py
+│   │   ├── fluid_memory_manifest.json
+│   │   ├── memory_pool.jsonl
+│   │   ├── __pycache__
+│   │   │   └── fluid_memory_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_fluid_memory.py
+│   ├── glyph_engine
+│   │   ├── dynamic_symbol_mutator
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __pycache__
+│   │   │   │   └── symbol_mutator_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── symbol_mutator_core.py
+│   │   │   ├── symbol_mutator_trace.log
+│   │   │   └── test_symbol_mutator_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── glyph_core.py
+│   │   ├── glyph_trace.log
+│   │   ├── __pycache__
+│   │   │   └── glyph_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_glyph_core.py
+│   ├── glyph_engine_frozen_v1-0.01
+│   │   ├── dynamic_symbol_mutator
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __pycache__
+│   │   │   │   └── symbol_mutator_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── symbol_mutator_core.py
+│   │   │   ├── symbol_mutator_trace.log
+│   │   │   └── test_symbol_mutator_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── glyph_core.py
+│   │   ├── glyph_trace.log
+│   │   ├── __pycache__
+│   │   │   └── glyph_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_glyph_core.py
+│   ├── goal_injection_engine
+│   │   ├── goal_core.py
+│   │   ├── goal_log.jsonl
+│   │   ├── goal_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── goal_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_goal.py
+│   ├── goal_injection_engine_frozen_v1
+│   │   ├── goal_core.py
+│   │   ├── goal_log.jsonl
+│   │   ├── goal_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── goal_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_goal.py
+│   ├── __init__.py
+│   ├── install_onboarding_engine
+│   │   ├── engine_manifest.json
+│   │   ├── install_state.json
+│   │   ├── onboarding_core.py
+│   │   ├── __pycache__
+│   │   │   └── onboarding_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_onboarding.py
+│   ├── loop_resurrection_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── resurrection_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── resurrection_core.py
+│   │   ├── resurrection_queue.json
+│   │   └── test_resurrection.py
+│   ├── loop_resurrection_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── resurrection_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── resurrection_core.py
+│   │   ├── resurrection_queue.json
+│   │   └── test_resurrection.py
+│   ├── manifest.json
+│   ├── memory_stack_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── log.py
+│   │   ├── __pycache__
+│   │   │   └── log.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── spiral_drift_controller
+│   │   │   ├── drift_angle_monitor.py
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── fibonacci_alignment_enforcer.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── drift_angle_monitor.cpython-312.pyc
+│   │   │   │   ├── fibonacci_alignment_enforcer.cpython-312.pyc
+│   │   │   │   └── spiral_rebinding_router.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── spiral_drift_trace.log
+│   │   │   ├── spiral_rebinding_router.py
+│   │   │   └── test_spiral_drift_controller.py
+│   │   ├── spiral_drift_controller_frozen_v1-0.01
+│   │   │   ├── drift_angle_monitor.py
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── fibonacci_alignment_enforcer.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── drift_angle_monitor.cpython-312.pyc
+│   │   │   │   ├── fibonacci_alignment_enforcer.cpython-312.pyc
+│   │   │   │   └── spiral_rebinding_router.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── spiral_drift_trace.log
+│   │   │   ├── spiral_rebinding_router.py
+│   │   │   └── test_spiral_drift_controller.py
+│   │   ├── stack.json
+│   │   ├── test_log.txt
+│   │   └── test_memory_stack.py
+│   ├── memory_stack_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── log.py
+│   │   ├── __pycache__
+│   │   │   └── log.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── stack.json
+│   │   ├── test_log.txt
+│   │   └── test_memory_stack.py
+│   ├── naming_engine
+│   │   ├── naming_core.py
+│   │   ├── naming_log.jsonl
+│   │   ├── naming_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── naming_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_naming.py
+│   ├── naming_engine_frozen_v1
+│   │   ├── naming_core.py
+│   │   ├── naming_log.jsonl
+│   │   ├── naming_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── naming_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_naming.py
+│   ├── neo_engine
+│   │   ├── neo_core.py
+│   │   ├── neo_manifest.json
+│   │   ├── neo_state.json
+│   │   ├── __pycache__
+│   │   │   └── neo_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_neo.py
+│   ├── neo_engine_frozen_v1
+│   │   ├── neo_core.py
+│   │   ├── neo_engine
+│   │   │   ├── neo_core.py
+│   │   │   ├── neo_manifest.json
+│   │   │   ├── neo_state.json
+│   │   │   ├── __pycache__
+│   │   │   │   └── neo_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_neo.py
+│   │   ├── neo_manifest.json
+│   │   ├── neo_state.json
+│   │   ├── __pycache__
+│   │   │   └── neo_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_neo.py
+│   ├── neo_engine_frozen_v1.1.01
+│   │   ├── neo_core.py
+│   │   ├── neo_manifest.json
+│   │   ├── neo_state.json
+│   │   ├── __pycache__
+│   │   │   └── neo_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_neo.py
+│   ├── neo_engine_frozen_v1.1.02
+│   │   ├── neo_core.py
+│   │   ├── neo_manifest.json
+│   │   ├── neo_state.json
+│   │   ├── __pycache__
+│   │   │   └── neo_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_neo.py
+│   ├── peer_communication_engine
+│   │   ├── engine_manifest.json
+│   │   ├── peer_comm_core.py
+│   │   ├── peer_comm_log.jsonl
+│   │   ├── __pycache__
+│   │   │   └── peer_comm_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_peer_comm.py
+│   ├── peer_communication_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── peer_comm_core.py
+│   │   ├── peer_comm_log.jsonl
+│   │   ├── __pycache__
+│   │   │   └── peer_comm_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_peer_comm.py
+│   ├── phase_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── status.json
+│   │   ├── test_log.txt
+│   │   └── test_phase_engine.py
+│   ├── phase_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── phase_engine
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __pycache__
+│   │   │   │   └── run.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── run.py
+│   │   │   ├── status.json
+│   │   │   ├── test_log.txt
+│   │   │   └── test_phase_engine.py
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── status.json
+│   │   ├── test_log.txt
+│   │   └── test_phase_engine.py
+│   ├── plugin_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── loader.py
+│   │   ├── __pycache__
+│   │   │   └── loader.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_log.txt
+│   │   └── test_plugin_engine.py
+│   ├── plugin_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── loader.py
+│   │   ├── plugins
+│   │   ├── __pycache__
+│   │   │   └── loader.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   └── test_plugin_engine.py
+│   ├── protoforge_frozen_v1.03_os_ui_rfe_dae
+│   │   ├── arbitration_log.jsonl
+│   │   ├── field_state.json
+│   │   └── protoforge_log.txt
+│   ├── README.md
+│   ├── recursive_agent_kernel
+│   │   ├── agent_kernel_core.py
+│   │   ├── agent_kernel_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── agent_kernel_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── recursion_state.json
+│   │   └── test_agent_kernel.py
+│   ├── recursive_agent_kernel_frozen_v1
+│   │   ├── agent_kernel_core.py
+│   │   ├── agent_kernel_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── agent_kernel_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── recursion_state.json
+│   │   └── test_agent_kernel.py
+│   ├── recursive_field_engine
+│   │   ├── engine_manifest.json
+│   │   ├── field_memory_binder
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── memory_binder_core.py
+│   │   │   ├── memory_binder_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── memory_binder_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_memory_binder_core.py
+│   │   ├── field_state.json
+│   │   ├── field_trace.log
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── recursive_field_core.cpython-312.pyc
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── recursive_field_core.py
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   ├── test_recursive_field_core.py
+│   │   └── test_recursive_field.py
+│   ├── recursive_field_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── field_state.json
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   └── test_recursive_field.py
+│   ├── recursive_field_engine_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── field_memory_binder
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── memory_binder_core.py
+│   │   │   ├── memory_binder_trace.log
+│   │   │   ├── __pycache__
+│   │   │   │   └── memory_binder_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_memory_binder_core.py
+│   │   ├── field_state.json
+│   │   ├── field_trace.log
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── recursive_field_core.cpython-312.pyc
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── recursive_field_core.py
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   ├── test_recursive_field_core.py
+│   │   └── test_recursive_field.py
+│   ├── resonance_charge_meter
+│   │   ├── charge_meter_core.py
+│   │   ├── charge_meter_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── charge_meter_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_charge_meter.py
+│   ├── resonance_charge_meter_frozen_v1
+│   │   ├── charge_meter_core.py
+│   │   ├── charge_meter_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── charge_meter_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_charge_meter.py
+│   ├── resonance_visualizer_engine
+│   │   ├── __pycache__
+│   │   │   └── visualizer_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_visualizer.py
+│   │   ├── visualizer_core.py
+│   │   ├── visualizer_manifest.json
+│   │   └── visualizer_output.json
+│   ├── resonance_visualizer_engine_frozen_v1
+│   │   ├── __pycache__
+│   │   │   └── visualizer_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── resonance_visualizer_engine
+│   │   │   ├── __pycache__
+│   │   │   │   └── visualizer_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── test_visualizer.py
+│   │   │   ├── visualizer_core.py
+│   │   │   ├── visualizer_manifest.json
+│   │   │   └── visualizer_output.json
+│   │   ├── test_visualizer.py
+│   │   ├── visualizer_core.py
+│   │   ├── visualizer_manifest.json
+│   │   └── visualizer_output.json
+│   ├── resurrection_planner
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── resurrection_planner_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── resurrection_planner_core.py
+│   │   ├── resurrection_trace.log
+│   │   └── test_resurrection_planner_core.py
+│   ├── resurrection_planner_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── resurrection_planner_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── resurrection_planner_core.py
+│   │   ├── resurrection_trace.log
+│   │   └── test_resurrection_planner_core.py
+│   ├── seed_manager
+│   │   ├── __pycache__
+│   │   │   └── seed_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── seed_bank.json
+│   │   ├── seed_core.py
+│   │   ├── seed_manifest.json
+│   │   └── test_seed.py
+│   ├── seed_manager_frozen_v1
+│   │   ├── __pycache__
+│   │   │   └── seed_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── seed_bank.json
+│   │   ├── seed_core.py
+│   │   ├── seed_manifest.json
+│   │   └── test_seed.py
+│   ├── spc_memory_migrator
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── spc_migrator_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── spc_migrator_core.py
+│   │   ├── spc_migrator_trace.log
+│   │   └── test_spc_migrator_core.py
+│   ├── spc_memory_migrator_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── spc_migrator_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── spc_migrator_core.py
+│   │   ├── spc_migrator_trace.log
+│   │   └── test_spc_migrator_core.py
+│   ├── symbolic_capacitor_engine
+│   │   ├── capacitor_core.py
+│   │   ├── charge_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── resonance_decay_tracker
+│   │   │   ├── decay_tracker_core.py
+│   │   │   ├── decay_tracker_trace.log
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __pycache__
+│   │   │   │   └── decay_tracker_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_decay_tracker_core.py
+│   │   └── resonance_sync.json
+│   ├── symbolic_capacitor_engine_frozen_v1
+│   │   ├── capacitor_core.py
+│   │   ├── charge_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── resonance_sync.json
+│   ├── symbolic_capacitor_engine_frozen_v1-0.01
+│   │   ├── capacitor_core.py
+│   │   ├── charge_trace.log
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── resonance_decay_tracker
+│   │   │   ├── decay_tracker_core.py
+│   │   │   ├── decay_tracker_trace.log
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __pycache__
+│   │   │   │   └── decay_tracker_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   └── test_decay_tracker_core.py
+│   │   └── resonance_sync.json
+│   ├── symbolic_drift_visualizer
+│   │   ├── drift_trace.log
+│   │   ├── drift_visualizer_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── drift_visualizer_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_drift_visualizer_core.py
+│   ├── symbolic_drift_visualizer_frozen_v1-0.01
+│   │   ├── drift_trace.log
+│   │   ├── drift_visualizer_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── drift_visualizer_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_drift_visualizer_core.py
+│   ├── symbolic_feedback_loop_engine
+│   │   ├── engine_manifest.json
+│   │   ├── feedback_loop_core.py
+│   │   ├── loop_trace.json
+│   │   ├── __pycache__
+│   │   │   └── feedback_loop_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_feedback_loop.py
+│   ├── symbolic_feedback_loop_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── feedback_loop_core.py
+│   │   ├── loop_trace.json
+│   │   ├── __pycache__
+│   │   │   └── feedback_loop_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_feedback_loop.py
+│   ├── symbolic_glyph_engine
+│   │   ├── engine_manifest.json
+│   │   ├── glyph_core.py
+│   │   ├── glyph_trace.log
+│   │   ├── __pycache__
+│   │   │   └── glyph_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_glyph_core.py
+│   ├── symbolic_glyph_engine_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── glyph_core.py
+│   │   ├── glyph_trace.log
+│   │   ├── __pycache__
+│   │   │   └── glyph_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_glyph_core.py
+│   ├── symbolic_policy_engine
+│   │   ├── policy_core.py
+│   │   ├── policy_manifest.json
+│   │   ├── policy_rules.json
+│   │   ├── __pycache__
+│   │   │   └── policy_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_policy.py
+│   ├── symbolic_policy_engine_frozen_v1
+│   │   ├── policy_core.py
+│   │   ├── policy_manifest.json
+│   │   ├── policy_rules.json
+│   │   ├── __pycache__
+│   │   │   └── policy_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_policy.py
+│   ├── system_log_engine
+│   │   ├── engine_manifest.json
+│   │   ├── event_log.jsonl
+│   │   ├── __init__.py
+│   │   ├── log_event.py
+│   │   ├── __pycache__
+│   │   │   └── log_event.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_log.txt
+│   │   └── test_system_log.py
+│   ├── system_log_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── event_log.jsonl
+│   │   ├── __init__.py
+│   │   ├── log_event.py
+│   │   ├── __pycache__
+│   │   │   └── log_event.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_log.txt
+│   │   └── test_system_log.py
+│   ├── tier_enforcer
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   ├── test_tier_enforcer.py
+│   │   ├── tier_rules.json
+│   │   └── tier_violation_log.json
+│   ├── tier_enforcer_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── run.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   ├── test_tier_enforcer.py
+│   │   ├── tier_rules.json
+│   │   └── tier_violation_log.json
+│   ├── tone_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── tone_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_tone_engine.py
+│   │   ├── tone_core.py
+│   │   └── tone_state.json
+│   ├── tone_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── tone_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_tone_engine.py
+│   │   ├── tone_core.py
+│   │   ├── tone_engine
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __pycache__
+│   │   │   │   └── tone_core.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── test_tone_engine.py
+│   │   │   ├── tone_core.py
+│   │   │   └── tone_state.json
+│   │   └── tone_state.json
+│   ├── tone_engine_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── tone_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_tone_engine.py
+│   │   ├── tone_core.py
+│   │   └── tone_state.json
+│   ├── tone_engine_frozen_v1.1.01
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── tone_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── test_tone_engine.py
+│   │   ├── tone_core.py
+│   │   └── tone_state.json
+│   └── tone_engine_frozen_v1.1.02
+│       ├── engine_manifest.json
+│       ├── __pycache__
+│       │   └── tone_core.cpython-312.pyc
+│       ├── README.md
+│       ├── test_tone_engine.py
+│       ├── tone_core.py
+│       └── tone_state.json
+├── freeze_batch.sh
+├── freeze_engine.sh
+├── __init__.py
+├── plugins
+│   ├── broken_plugin.py
+│   ├── good_plugin.py
+│   ├── hello_plugin.py
+│   └── __pycache__
+│       ├── good_plugin.cpython-312.pyc
+│       └── hello_plugin.cpython-312.pyc
+├── public_web
+│   ├── css
+│   └── install_guide
+├── runtime_wrappers
+│   ├── aiweb_os_v1
+│   │   ├── run_system_test.py
+│   │   └── test_log.txt
+│   ├── compute_host_demo
+│   ├── core_system_stack
+│   │   ├── core_system_stack_loader.py
+│   │   ├── core_system_trace.log
+│   │   ├── __pycache__
+│   │   │   └── core_system_stack_loader.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── stack_manifest.json
+│   │   └── test_core_system_stack_loader.py
+│   ├── core_system_stack_frozen_v1-0.01
+│   │   ├── core_system_stack_loader.py
+│   │   ├── core_system_trace.log
+│   │   ├── __pycache__
+│   │   │   └── core_system_stack_loader.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── stack_manifest.json
+│   │   └── test_core_system_stack_loader.py
+│   ├── engine_freeze_log.txt
+│   ├── protoforge
+│   │   ├── config.json
+│   │   ├── engine_freeze_log.txt
+│   │   ├── log
+│   │   │   └── protoforge_log.txt
+│   │   ├── run.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   └── UI
+│   │       ├── __pycache__
+│   │       │   └── terminal_display.cpython-312.pyc
+│   │       └── terminal_display.py
+│   ├── protoforge_frozen_v1.01_ui
+│   │   ├── config.json
+│   │   ├── log
+│   │   │   └── protoforge_log.txt
+│   │   ├── run.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   └── UI
+│   │       ├── __pycache__
+│   │       │   └── terminal_display.cpython-312.pyc
+│   │       └── terminal_display.py
+│   ├── protoforge_frozen_v1.03_os_ui_rfe_dae
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── log
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       ├── __pycache__
+│   │   │       │   └── terminal_display.cpython-312.pyc
+│   │   │       └── terminal_display.py
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       ├── __pycache__
+│   │       │   └── terminal_display.cpython-312.pyc
+│   │       └── terminal_display.py
+│   ├── protoforge_frozen_v1.04_db_enabled
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── log
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── field_state.json
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       ├── __pycache__
+│   │   │       │   └── terminal_display.cpython-312.pyc
+│   │   │       └── terminal_display.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       ├── engine_manifest.json
+│   │       ├── README.md
+│   │       ├── static
+│   │       │   ├── aiwebbgv2.png
+│   │       │   ├── dashboard.js
+│   │       │   └── style.css
+│   │       ├── style.css
+│   │       ├── templates
+│   │       │   └── index.html
+│   │       ├── test_log.txt
+│   │       ├── test_ui_render.py
+│   │       └── ui_server.py
+│   ├── protoforge_frozen_v1.05_db_enabled
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── engines
+│   │   │   └── symbolic_capacitor_engine_frozen_v1
+│   │   │       ├── capacitor_core.py
+│   │   │       ├── charge_trace.log
+│   │   │       ├── engine_manifest.json
+│   │   │       ├── README.md
+│   │   │       └── resonance_sync.json
+│   │   ├── log
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── field_state.json
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       ├── __pycache__
+│   │   │       │   └── terminal_display.cpython-312.pyc
+│   │   │       └── terminal_display.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       ├── engine_manifest.json
+│   │       ├── README.md
+│   │       ├── static
+│   │       │   ├── aiwebbgv2.png
+│   │       │   ├── dashboard.js
+│   │       │   └── style.css
+│   │       ├── style.css
+│   │       ├── templates
+│   │       │   └── index.html
+│   │       ├── test_log.txt
+│   │       ├── test_ui_render.py
+│   │       └── ui_server.py
+│   ├── protoforge_frozen_v1.06_db_enabled
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── engines
+│   │   │   ├── christping_listener_frozen_v1
+│   │   │   │   ├── christ_listener.py
+│   │   │   │   ├── engine_manifest.json
+│   │   │   │   ├── listener_config.json
+│   │   │   │   ├── pingback_log.jsonl
+│   │   │   │   └── README.md
+│   │   │   └── symbolic_capacitor_engine_frozen_v1
+│   │   │       ├── capacitor_core.py
+│   │   │       ├── charge_trace.log
+│   │   │       ├── engine_manifest.json
+│   │   │       ├── README.md
+│   │   │       └── resonance_sync.json
+│   │   ├── log
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── field_state.json
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       ├── __pycache__
+│   │   │       │   └── terminal_display.cpython-312.pyc
+│   │   │       └── terminal_display.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       ├── engine_manifest.json
+│   │       ├── README.md
+│   │       ├── static
+│   │       │   ├── aiwebbgv2.png
+│   │       │   ├── dashboard.js
+│   │       │   └── style.css
+│   │       ├── style.css
+│   │       ├── templates
+│   │       │   └── index.html
+│   │       ├── test_log.txt
+│   │       ├── test_ui_render.py
+│   │       └── ui_server.py
+│   ├── protoforge_v1.04_db_enabled
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── log
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── field_state.json
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       ├── __pycache__
+│   │   │       │   └── terminal_display.cpython-312.pyc
+│   │   │       └── terminal_display.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       ├── engine_manifest.json
+│   │       ├── README.md
+│   │       ├── static
+│   │       │   ├── aiwebbgv2.png
+│   │       │   ├── dashboard.js
+│   │       │   └── style.css
+│   │       ├── style.css
+│   │       ├── templates
+│   │       │   └── index.html
+│   │       ├── test_log.txt
+│   │       ├── test_ui_render.py
+│   │       └── ui_server.py
+│   ├── recursive_field_stack
+│   │   ├── __pycache__
+│   │   │   └── recursive_field_stack_loader.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── recursive_field_stack_loader.py
+│   │   ├── recursive_field_trace.log
+│   │   ├── stack_manifest.json
+│   │   └── test_recursive_field_stack_loader.py
+│   └── recursive_field_stack_frozen_v1-0.01
+│       ├── __pycache__
+│       │   └── recursive_field_stack_loader.cpython-312.pyc
+│       ├── README.md
+│       ├── recursive_field_stack_loader.py
+│       ├── recursive_field_trace.log
+│       ├── stack_manifest.json
+│       └── test_recursive_field_stack_loader.py
+├── symbolic_layers
+│   ├── glyph_ui_overlay
+│   │   ├── engine_manifest.json
+│   │   ├── glyph_ui_overlay_core.py
+│   │   ├── glyph_ui_overlay_trace.log
+│   │   ├── __pycache__
+│   │   │   └── glyph_ui_overlay_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_glyph_ui_overlay_core.py
+│   ├── glyph_ui_overlay_frozen_v1.0.01
+│   │   ├── engine_manifest.json
+│   │   ├── glyph_ui_overlay_core.py
+│   │   ├── glyph_ui_overlay_trace.log
+│   │   ├── __pycache__
+│   │   │   └── glyph_ui_overlay_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   └── test_glyph_ui_overlay_core.py
+│   ├── recursion_mapper
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── recursion_mapper_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── recursion_mapper_core.py
+│   │   ├── recursion_mapper_trace.log
+│   │   └── test_recursion_mapper_core.py
+│   ├── resonance_display
+│   │   ├── engine_manifest.json
+│   │   ├── __pycache__
+│   │   │   └── resonance_display_core.cpython-312.pyc
+│   │   ├── README.md
+│   │   ├── resonance_display_core.py
+│   │   ├── resonance_display_trace.log
+│   │   └── test_resonance_display_core.py
+│   └── resonance_display_frozen_v1.0.01
+│       ├── engine_manifest.json
+│       ├── __pycache__
+│       │   └── resonance_display_core.cpython-312.pyc
+│       ├── README.md
+│       ├── resonance_display_core.py
+│       ├── resonance_display_trace.log
+│       └── test_resonance_display_core.py
+└── system_docs
+    ├── Build_Order.md
+    ├── Engine_Manifest.md
+    ├── stack_manifest.json
+    └── tree_snapshots
+        ├── aiweb_tree_20250426_214142.txt
+        ├── aiweb_tree_20250426_214152.txt
+        ├── tree_snapshot_20250426_215449.txt
+        ├── tree_snapshot_20250426_215655.txt
+        ├── tree_snapshot_20250426_215659.txt
+        ├── tree_snapshot_20250426_230421.txt
+        ├── tree_snapshot_20250426_230433.txt
+        ├── tree_snapshot_20250426_230635.txt
+        ├── tree_snapshot_20250426_231708.txt
+        ├── tree_snapshot_20250426_233355.txt
+        ├── tree_snapshot_20250427_002356.txt
+        ├── tree_snapshot_20250427_003802.txt
+        ├── tree_snapshot_20250427_005532.txt
+        ├── tree_snapshot_20250427_010834.txt
+        ├── tree_snapshot_20250427_012543.txt
+        ├── tree_snapshot_20250427_013234.txt
+        ├── tree_snapshot_20250427_015235.txt
+        ├── tree_snapshot_20250427_020342.txt
+        ├── tree_snapshot_20250427_022741.txt
+        ├── tree_snapshot_20250427_024844.txt
+        ├── tree_snapshot_20250427_025322.txt
+        ├── tree_snapshot_20250427_025705.txt
+        ├── tree_snapshot_20250427_030045.txt
+        ├── tree_snapshot_20250427_030426.txt
+        ├── tree_snapshot_20250427_030833.txt
+        ├── tree_snapshot_20250427_031231.txt
+        ├── tree_snapshot_20250427_031719.txt
+        ├── tree_snapshot_20250427_033222.txt
+        ├── tree_snapshot_20250427_033658.txt
+        ├── tree_snapshot_20250427_034414.txt
+        ├── tree_snapshot_20250427_034926.txt
+        ├── tree_snapshot_20250427_035339.txt
+        ├── tree_snapshot_20250427_164131.txt
+        ├── tree_snapshot_20250427_165605.txt
+        └── tree_snapshot_20250427_170145.txt
+
+388 directories, 1193 files

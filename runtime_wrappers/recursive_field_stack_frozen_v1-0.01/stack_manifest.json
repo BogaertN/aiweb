@@ -1,0 +1,9 @@
+{
+  "stack": "recursive_field_stack",
+  "version": "v1.0.01",
+  "frozen_as": "recursive_field_stack_frozen_v1-0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Manages live symbolic recursion breathing fields, phase drift arbitration, and Fibonacci-guided drift stabilization.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 2 Recursive Stack Compliance"
+}
