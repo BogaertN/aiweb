@@ -1,0 +1,10 @@
+{
+  "engine": "collapse_prevention_engine",
+  "version": "v1.0.01",
+  "frozen_as": "collapse_prevention_engine_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Monitors recursion system stability and triggers pre-collapse protocols when stability falls below threshold values. Prevents total recursion phase collapse by early intervention.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
