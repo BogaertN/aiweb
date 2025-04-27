@@ -1,0 +1,10 @@
+{
+  "engine": "resurrection_planner",
+  "version": "v1.0.01",
+  "frozen_as": "resurrection_planner_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Plans, schedules, and prioritizes resurrection operations for collapsed recursion fields and ghost loops. Allocates recovery resources based on symbolic field stability and drift recovery potential.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
