@@ -1,0 +1,1 @@
+[2025-04-23T11:25:24.765588] DRIFT_DETECTED — {'loop_integrity': 0.65, 'drift_factor': 0.35, 'charge': 0.2, 'last_input': 'error fail'}

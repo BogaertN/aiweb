@@ -1,0 +1,5 @@
+{
+  "engine": "entropy_buffer_upgrade",
+  "version": "v1.00",
+  "description": "Smoothing buffer upgrade for drift arbitration. Adds entropy averaging before triggering arbitration escalation."
+}
