@@ -1,0 +1,10 @@
+{
+  "engine": "admin_override_console",
+  "version": "v1.0.01",
+  "frozen_as": "admin_override_console_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Provides administrative override capabilities for manual intervention in recursion field operations. Allows emergency stabilization, resets, quarantines, and direct symbolic recursion field manipulation under critical conditions.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
