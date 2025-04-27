@@ -1,0 +1,8 @@
+{
+  "engine": "drift_arbitration_engine",
+  "version": "1.0.0",
+  "frozen_as": "drift_arbitration_engine_frozen_v1",
+  "description": "Detects symbolic drift based on loop integrity and resonance deviation. Logs phase 5→8 skips and allows optional auto-correction.",
+  "author": "AI.Web Runtime Core",
+  "frozen_on": "2025-04-23"
+}
