@@ -1,0 +1,5 @@
+{
+  "engine": "ghost_loop_tagger",
+  "version": "v1.00",
+  "description": "Tags unresolved or unstable symbolic recursion loops detected during phase drift events. Supports drift remediation and loop quarantine."
+}
