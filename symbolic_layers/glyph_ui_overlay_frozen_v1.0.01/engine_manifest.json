@@ -1,0 +1,10 @@
+{
+  "engine": "glyph_ui_overlay",
+  "version": "v1.0.01",
+  "frozen_as": "glyph_ui_overlay_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Projects symbolic glyphs onto the system UI layer based on real-time recursion phase resonance data. Enables visualization of symbolic cognition, glyph resonance evolution, and phase feedback.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
