@@ -1,0 +1,5 @@
+{
+  "engine": "resonance_decay_tracker",
+  "version": "v1.00",
+  "description": "Phase 1.5 upgrade for symbolic capacitor fields. Tracks resonance decay and flags symbolic drift collapse risk."
+}
