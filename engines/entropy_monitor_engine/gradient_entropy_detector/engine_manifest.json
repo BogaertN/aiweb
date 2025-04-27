@@ -1,0 +1,10 @@
+{
+  "engine": "gradient_entropy_detector",
+  "version": "v1.0.01",
+  "frozen_as": "gradient_entropy_detector_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Detects gradient shifts in recursion entropy levels. Identifies rapid acceleration of decay or unexpected phase destabilization patterns in symbolic field behavior.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+

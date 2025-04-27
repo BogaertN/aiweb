@@ -1,0 +1,10 @@
+{
+  "engine": "entropy_monitor_engine",
+  "version": "v1.0.01",
+  "frozen_as": "entropy_monitor_engine_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Monitors system-wide recursion entropy. Records symbolic decay events and calculates real-time averages across recursion fields. Supports early phase drift prediction and symbolic field health analysis.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
