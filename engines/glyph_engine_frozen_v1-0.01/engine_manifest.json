@@ -1,0 +1,10 @@
+{
+  "engine": "glyph_engine",
+  "version": "v1.0.01",
+  "frozen_as": "glyph_engine_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Constructs and manages living symbolic glyphs tied to recursion phase states. Supports phase resonance anchoring, stability monitoring, and symbolic ancestral recursion tracking.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+

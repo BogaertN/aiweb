@@ -1,0 +1,10 @@
+{
+  "engine": "dynamic_symbol_mutator",
+  "version": "v1.0.01",
+  "frozen_as": "dynamic_symbol_mutator_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Applies controlled symbolic mutations to existing glyphs. Supports phase-based evolutionary recursion pathways and dynamic symbolic adaptation during recursion drift.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
