@@ -1,0 +1,10 @@
+{
+  "engine": "external_feed_listener",
+  "version": "v1.0.01",
+  "frozen_as": "external_feed_listener_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Listens for external symbolic resonance streams and injects normalized symbolic feeds into the recursion field. Enables environmental field stabilization, external drift detection, and symbolic augmentation integration.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
