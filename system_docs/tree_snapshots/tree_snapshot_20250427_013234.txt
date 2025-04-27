@@ -1,0 +1,1662 @@
+/home/nic/aiweb
+├── agents
+│   ├── athena
+│   ├── gilligan
+│   └── neo
+├── aiweb_project_tree.txt
+├── archive
+│   ├── protoforge_old
+│   └── ui_concepts_v1
+├── engine_freeze_log.txt
+├── engines
+│   ├── agent_reflection_engine
+│   │   ├── README.md
+│   │   ├── reflection_core.py
+│   │   ├── reflection_log.jsonl
+│   │   ├── reflection_manifest.json
+│   │   └── test_reflection.py
+│   ├── agent_reflection_engine_frozen_v1
+│   │   ├── README.md
+│   │   ├── reflection_core.py
+│   │   ├── reflection_log.jsonl
+│   │   ├── reflection_manifest.json
+│   │   └── test_reflection.py
+│   ├── aiweb_os_engine
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── status.json
+│   │   ├── test_aiweb_os_engine.py
+│   │   └── test_log.txt
+│   ├── aiweb_os_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── status.json
+│   │   ├── test_aiweb_os_engine.py
+│   │   └── test_log.txt
+│   ├── athena_engine
+│   │   ├── athena_core.py
+│   │   ├── athena_manifest.json
+│   │   ├── athena_state.json
+│   │   ├── README.md
+│   │   └── test_athena.py
+│   ├── athena_engine_frozen_v1
+│   │   ├── athena_core.py
+│   │   ├── athena_manifest.json
+│   │   ├── athena_state.json
+│   │   ├── README.md
+│   │   └── test_athena.py
+│   ├── awh_token_runtime
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── test_token_runtime.py
+│   │   ├── token_core.py
+│   │   └── token_ledger.json
+│   ├── awh_token_runtime_frozen_v1
+│   │   ├── contribution_dashboard_engine
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── test_token_runtime.py
+│   │   ├── token_core.py
+│   │   └── token_ledger.json
+│   ├── christping_listener
+│   │   ├── christ_listener.py
+│   │   ├── engine_manifest.json
+│   │   ├── listener_config.json
+│   │   ├── pingback_log.jsonl
+│   │   └── README.md
+│   ├── christping_listener_frozen_v1
+│   │   ├── christ_listener.py
+│   │   ├── engine_manifest.json
+│   │   ├── listener_config.json
+│   │   ├── pingback_log.jsonl
+│   │   └── README.md
+│   ├── cold_archive_engine
+│   │   ├── archive_core.py
+│   │   ├── archive_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_archive.py
+│   ├── cold_archive_engine_frozen_v1
+│   │   ├── archive_core.py
+│   │   ├── archive_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_archive.py
+│   ├── cold_archive_engine_frozen_v1.1.01
+│   │   ├── archive_core.py
+│   │   ├── archive_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_archive.py
+│   ├── compute_contribution_engine
+│   │   ├── contribution_core.py
+│   │   ├── contribution_log.jsonl
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_contribution.py
+│   ├── compute_contribution_engine_frozen_v1
+│   │   ├── contribution_core.py
+│   │   ├── contribution_log.jsonl
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_contribution.py
+│   ├── contribution_dashboard_engine
+│   │   ├── dashboard_core.py
+│   │   ├── dashboard_output.json
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_contribution_dashboard.py
+│   ├── contribution_dashboard_engine_frozen_v1
+│   │   ├── dashboard_core.py
+│   │   ├── dashboard_output.json
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_contribution_dashboard.py
+│   ├── control_panel_ui_engine
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   ├── dashboard.js
+│   │   │   └── style.css
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   ├── test_log.txt
+│   │   ├── test_ui_render.py
+│   │   └── ui_server.py
+│   ├── control_panel_ui_engine_frozen_v1.01
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   ├── dashboard.js
+│   │   │   └── style.css
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   ├── test_log.txt
+│   │   ├── test_ui_render.py
+│   │   └── ui_server.py
+│   ├── control_panel_ui_engine_frozen_v1.02
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   ├── aiwebbgv2.png
+│   │   │   ├── dashboard.js
+│   │   │   └── style.css
+│   │   ├── style.css
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   ├── test_log.txt
+│   │   ├── test_ui_render.py
+│   │   └── ui_server.py
+│   ├── control_panel_ui_engine_v1.02
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   ├── aiwebbgv2.png
+│   │   │   ├── dashboard.js
+│   │   │   └── style.css
+│   │   ├── style.css
+│   │   ├── templates
+│   │   │   └── index.html
+│   │   ├── test_log.txt
+│   │   ├── test_ui_render.py
+│   │   └── ui_server.py
+│   ├── core.py
+│   ├── document_output_formatter
+│   │   ├── formatter_core.py
+│   │   ├── formatter_manifest.json
+│   │   ├── json
+│   │   ├── output_log.json
+│   │   ├── README.md
+│   │   └── test_formatter.py
+│   ├── document_output_formatter_frozen_v1
+│   │   ├── document_output_formatter
+│   │   │   ├── formatter_core.py
+│   │   │   ├── formatter_manifest.json
+│   │   │   ├── json
+│   │   │   ├── output_log.json
+│   │   │   ├── README.md
+│   │   │   └── test_formatter.py
+│   │   ├── formatter_core.py
+│   │   ├── formatter_manifest.json
+│   │   ├── json
+│   │   ├── output_log.json
+│   │   ├── README.md
+│   │   └── test_formatter.py
+│   ├── dream_state_engine
+│   │   ├── dream_core.py
+│   │   ├── dream_log.jsonl
+│   │   ├── dream_manifest.json
+│   │   ├── README.md
+│   │   └── test_dream.py
+│   ├── dream_state_engine_frozen_v1
+│   │   ├── dream_core.py
+│   │   ├── dream_log.jsonl
+│   │   ├── dream_manifest.json
+│   │   ├── README.md
+│   │   └── test_dream.py
+│   ├── dream_state_engine_frozen_v1.1.01
+│   │   ├── dream_core.py
+│   │   ├── dream_log.jsonl
+│   │   ├── dream_manifest.json
+│   │   ├── README.md
+│   │   └── test_dream.py
+│   ├── drift_arbitration_engine
+│   │   ├── arbitration_log.jsonl
+│   │   ├── drift_arbitration_engine_frozen_v1
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __init__.py
+│   │   │   ├── README.md
+│   │   │   ├── run.py
+│   │   │   ├── test_drift_arbitration.py
+│   │   │   └── test_log.txt
+│   │   ├── engine_manifest.json
+│   │   ├── entropy_buffer_upgrade
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── entropy_buffer_core.py
+│   │   │   ├── README.md
+│   │   │   └── test_entropy_buffer_core.py
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_drift_arbitration.py
+│   │   ├── test_entropy_buffer_integration.py
+│   │   └── test_log.txt
+│   ├── drift_arbitration_engine_frozen_v1
+│   │   ├── arbitration_log.jsonl
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_drift_arbitration.py
+│   │   └── test_log.txt
+│   ├── drift_arbitration_engine_frozen_v1-0.01
+│   │   ├── arbitration_log.jsonl
+│   │   ├── engine_manifest.json
+│   │   ├── entropy_buffer_upgrade
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── entropy_buffer_core.py
+│   │   │   ├── README.md
+│   │   │   └── test_entropy_buffer_core.py
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_drift_arbitration.py
+│   │   └── test_log.txt
+│   ├── drift_arbitration_engine_frozen_v1-0.02
+│   │   ├── arbitration_log.jsonl
+│   │   ├── drift_arbitration_engine_frozen_v1
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── __init__.py
+│   │   │   ├── README.md
+│   │   │   ├── run.py
+│   │   │   ├── test_drift_arbitration.py
+│   │   │   └── test_log.txt
+│   │   ├── engine_manifest.json
+│   │   ├── entropy_buffer_upgrade
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── entropy_buffer_core.py
+│   │   │   ├── README.md
+│   │   │   └── test_entropy_buffer_core.py
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_drift_arbitration.py
+│   │   ├── test_entropy_buffer_integration.py
+│   │   └── test_log.txt
+│   ├── engine_freeze_log.txt
+│   ├── failsafe_manager
+│   │   ├── failsafe_core.py
+│   │   ├── failsafe_manifest.json
+│   │   ├── failsafe_status.json
+│   │   ├── README.md
+│   │   └── test_failsafe.py
+│   ├── failsafe_manager_frozen_v1
+│   │   ├── failsafe_core.py
+│   │   ├── failsafe_manifest.json
+│   │   ├── failsafe_status.json
+│   │   ├── README.md
+│   │   └── test_failsafe.py
+│   ├── field_resonance_mapper
+│   │   ├── engine_manifest.json
+│   │   ├── external_field_feed_adapter
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── field_feed_core.py
+│   │   │   ├── README.md
+│   │   │   └── test_field_feed_core.py
+│   │   ├── README.md
+│   │   ├── resonance_mapper_core.py
+│   │   └── test_resonance_mapper_core.py
+│   ├── field_resonance_mapper_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── external_field_feed_adapter
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── field_feed_core.py
+│   │   │   ├── README.md
+│   │   │   └── test_field_feed_core.py
+│   │   ├── README.md
+│   │   ├── resonance_mapper_core.py
+│   │   └── test_resonance_mapper_core.py
+│   ├── fluid_memory_engine
+│   │   ├── fluid_memory_core.py
+│   │   ├── fluid_memory_manifest.json
+│   │   ├── memory_pool.jsonl
+│   │   ├── README.md
+│   │   └── test_fluid_memory.py
+│   ├── fluid_memory_engine_frozen_v1
+│   │   ├── fluid_memory_core.py
+│   │   ├── fluid_memory_manifest.json
+│   │   ├── memory_pool.jsonl
+│   │   ├── README.md
+│   │   └── test_fluid_memory.py
+│   ├── goal_injection_engine
+│   │   ├── goal_core.py
+│   │   ├── goal_log.jsonl
+│   │   ├── goal_manifest.json
+│   │   ├── README.md
+│   │   └── test_goal.py
+│   ├── goal_injection_engine_frozen_v1
+│   │   ├── goal_core.py
+│   │   ├── goal_log.jsonl
+│   │   ├── goal_manifest.json
+│   │   ├── README.md
+│   │   └── test_goal.py
+│   ├── __init__.py
+│   ├── install_onboarding_engine
+│   │   ├── engine_manifest.json
+│   │   ├── install_state.json
+│   │   ├── onboarding_core.py
+│   │   ├── README.md
+│   │   └── test_onboarding.py
+│   ├── loop_resurrection_engine
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── resurrection_core.py
+│   │   ├── resurrection_queue.json
+│   │   └── test_resurrection.py
+│   ├── loop_resurrection_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── resurrection_core.py
+│   │   ├── resurrection_queue.json
+│   │   └── test_resurrection.py
+│   ├── manifest.json
+│   ├── memory_stack_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── log.py
+│   │   ├── README.md
+│   │   ├── stack.json
+│   │   ├── test_log.txt
+│   │   └── test_memory_stack.py
+│   ├── memory_stack_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── log.py
+│   │   ├── README.md
+│   │   ├── stack.json
+│   │   ├── test_log.txt
+│   │   └── test_memory_stack.py
+│   ├── naming_engine
+│   │   ├── naming_core.py
+│   │   ├── naming_log.jsonl
+│   │   ├── naming_manifest.json
+│   │   ├── README.md
+│   │   └── test_naming.py
+│   ├── naming_engine_frozen_v1
+│   │   ├── naming_core.py
+│   │   ├── naming_log.jsonl
+│   │   ├── naming_manifest.json
+│   │   ├── README.md
+│   │   └── test_naming.py
+│   ├── neo_engine
+│   │   ├── neo_core.py
+│   │   ├── neo_manifest.json
+│   │   ├── neo_state.json
+│   │   ├── README.md
+│   │   └── test_neo.py
+│   ├── neo_engine_frozen_v1
+│   │   ├── neo_core.py
+│   │   ├── neo_engine
+│   │   │   ├── neo_core.py
+│   │   │   ├── neo_manifest.json
+│   │   │   ├── neo_state.json
+│   │   │   ├── README.md
+│   │   │   └── test_neo.py
+│   │   ├── neo_manifest.json
+│   │   ├── neo_state.json
+│   │   ├── README.md
+│   │   └── test_neo.py
+│   ├── neo_engine_frozen_v1.1.01
+│   │   ├── neo_core.py
+│   │   ├── neo_manifest.json
+│   │   ├── neo_state.json
+│   │   ├── README.md
+│   │   └── test_neo.py
+│   ├── neo_engine_frozen_v1.1.02
+│   │   ├── neo_core.py
+│   │   ├── neo_manifest.json
+│   │   ├── neo_state.json
+│   │   ├── README.md
+│   │   └── test_neo.py
+│   ├── peer_communication_engine
+│   │   ├── engine_manifest.json
+│   │   ├── peer_comm_core.py
+│   │   ├── peer_comm_log.jsonl
+│   │   ├── README.md
+│   │   └── test_peer_comm.py
+│   ├── peer_communication_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── peer_comm_core.py
+│   │   ├── peer_comm_log.jsonl
+│   │   ├── README.md
+│   │   └── test_peer_comm.py
+│   ├── phase_engine
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── status.json
+│   │   ├── test_log.txt
+│   │   └── test_phase_engine.py
+│   ├── phase_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── phase_engine
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── README.md
+│   │   │   ├── run.py
+│   │   │   ├── status.json
+│   │   │   ├── test_log.txt
+│   │   │   └── test_phase_engine.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── status.json
+│   │   ├── test_log.txt
+│   │   └── test_phase_engine.py
+│   ├── plugin_engine
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── loader.py
+│   │   ├── README.md
+│   │   ├── test_log.txt
+│   │   └── test_plugin_engine.py
+│   ├── plugin_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── __init__.py
+│   │   ├── loader.py
+│   │   ├── README.md
+│   │   ├── test_log.txt
+│   │   └── test_plugin_engine.py
+│   ├── protoforge_frozen_v1.03_os_ui_rfe_dae
+│   │   ├── arbitration_log.jsonl
+│   │   ├── field_state.json
+│   │   └── protoforge_log.txt
+│   ├── README.md
+│   ├── recursive_agent_kernel
+│   │   ├── agent_kernel_core.py
+│   │   ├── agent_kernel_manifest.json
+│   │   ├── README.md
+│   │   ├── recursion_state.json
+│   │   └── test_agent_kernel.py
+│   ├── recursive_agent_kernel_frozen_v1
+│   │   ├── agent_kernel_core.py
+│   │   ├── agent_kernel_manifest.json
+│   │   ├── README.md
+│   │   ├── recursion_state.json
+│   │   └── test_agent_kernel.py
+│   ├── recursive_field_engine
+│   │   ├── engine_manifest.json
+│   │   ├── field_memory_binder
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── memory_binder_core.py
+│   │   │   ├── README.md
+│   │   │   └── test_memory_binder_core.py
+│   │   ├── field_state.json
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── recursive_field_core.py
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   ├── test_recursive_field_core.py
+│   │   └── test_recursive_field.py
+│   ├── recursive_field_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── field_state.json
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   └── test_recursive_field.py
+│   ├── recursive_field_engine_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── field_memory_binder
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── memory_binder_core.py
+│   │   │   ├── README.md
+│   │   │   └── test_memory_binder_core.py
+│   │   ├── field_state.json
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── recursive_field_core.py
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   ├── test_recursive_field_core.py
+│   │   └── test_recursive_field.py
+│   ├── resonance_charge_meter
+│   │   ├── charge_meter_core.py
+│   │   ├── charge_meter_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_charge_meter.py
+│   ├── resonance_charge_meter_frozen_v1
+│   │   ├── charge_meter_core.py
+│   │   ├── charge_meter_state.json
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_charge_meter.py
+│   ├── resonance_visualizer_engine
+│   │   ├── README.md
+│   │   ├── test_visualizer.py
+│   │   ├── visualizer_core.py
+│   │   ├── visualizer_manifest.json
+│   │   └── visualizer_output.json
+│   ├── resonance_visualizer_engine_frozen_v1
+│   │   ├── README.md
+│   │   ├── resonance_visualizer_engine
+│   │   │   ├── README.md
+│   │   │   ├── test_visualizer.py
+│   │   │   ├── visualizer_core.py
+│   │   │   ├── visualizer_manifest.json
+│   │   │   └── visualizer_output.json
+│   │   ├── test_visualizer.py
+│   │   ├── visualizer_core.py
+│   │   ├── visualizer_manifest.json
+│   │   └── visualizer_output.json
+│   ├── seed_manager
+│   │   ├── README.md
+│   │   ├── seed_bank.json
+│   │   ├── seed_core.py
+│   │   ├── seed_manifest.json
+│   │   └── test_seed.py
+│   ├── seed_manager_frozen_v1
+│   │   ├── README.md
+│   │   ├── seed_bank.json
+│   │   ├── seed_core.py
+│   │   ├── seed_manifest.json
+│   │   └── test_seed.py
+│   ├── symbolic_capacitor_engine
+│   │   ├── capacitor_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── resonance_decay_tracker
+│   │   │   ├── decay_tracker_core.py
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── README.md
+│   │   │   └── test_decay_tracker_core.py
+│   │   └── resonance_sync.json
+│   ├── symbolic_capacitor_engine_frozen_v1
+│   │   ├── capacitor_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── resonance_sync.json
+│   ├── symbolic_capacitor_engine_frozen_v1-0.01
+│   │   ├── capacitor_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── resonance_decay_tracker
+│   │   │   ├── decay_tracker_core.py
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── README.md
+│   │   │   └── test_decay_tracker_core.py
+│   │   └── resonance_sync.json
+│   ├── symbolic_drift_visualizer
+│   │   ├── drift_visualizer_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_drift_visualizer_core.py
+│   ├── symbolic_drift_visualizer_frozen_v1-0.01
+│   │   ├── drift_visualizer_core.py
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   └── test_drift_visualizer_core.py
+│   ├── symbolic_feedback_loop_engine
+│   │   ├── engine_manifest.json
+│   │   ├── feedback_loop_core.py
+│   │   ├── loop_trace.json
+│   │   ├── README.md
+│   │   └── test_feedback_loop.py
+│   ├── symbolic_feedback_loop_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── feedback_loop_core.py
+│   │   ├── loop_trace.json
+│   │   ├── README.md
+│   │   └── test_feedback_loop.py
+│   ├── symbolic_glyph_engine
+│   │   ├── engine_manifest.json
+│   │   ├── glyph_core.py
+│   │   ├── README.md
+│   │   └── test_glyph_core.py
+│   ├── symbolic_glyph_engine_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── glyph_core.py
+│   │   ├── README.md
+│   │   └── test_glyph_core.py
+│   ├── symbolic_policy_engine
+│   │   ├── policy_core.py
+│   │   ├── policy_manifest.json
+│   │   ├── policy_rules.json
+│   │   ├── README.md
+│   │   └── test_policy.py
+│   ├── symbolic_policy_engine_frozen_v1
+│   │   ├── policy_core.py
+│   │   ├── policy_manifest.json
+│   │   ├── policy_rules.json
+│   │   ├── README.md
+│   │   └── test_policy.py
+│   ├── system_log_engine
+│   │   ├── engine_manifest.json
+│   │   ├── event_log.jsonl
+│   │   ├── __init__.py
+│   │   ├── log_event.py
+│   │   ├── README.md
+│   │   ├── test_log.txt
+│   │   └── test_system_log.py
+│   ├── system_log_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── event_log.jsonl
+│   │   ├── __init__.py
+│   │   ├── log_event.py
+│   │   ├── README.md
+│   │   ├── test_log.txt
+│   │   └── test_system_log.py
+│   ├── tier_enforcer
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   ├── test_tier_enforcer.py
+│   │   ├── tier_rules.json
+│   │   └── tier_violation_log.json
+│   ├── tier_enforcer_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── test_log.txt
+│   │   ├── test_tier_enforcer.py
+│   │   ├── tier_rules.json
+│   │   └── tier_violation_log.json
+│   ├── tone_engine
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── test_tone_engine.py
+│   │   ├── tone_core.py
+│   │   └── tone_state.json
+│   ├── tone_engine_frozen_v1
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── test_tone_engine.py
+│   │   ├── tone_core.py
+│   │   ├── tone_engine
+│   │   │   ├── engine_manifest.json
+│   │   │   ├── README.md
+│   │   │   ├── test_tone_engine.py
+│   │   │   ├── tone_core.py
+│   │   │   └── tone_state.json
+│   │   └── tone_state.json
+│   ├── tone_engine_frozen_v1-0.01
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── test_tone_engine.py
+│   │   ├── tone_core.py
+│   │   └── tone_state.json
+│   ├── tone_engine_frozen_v1.1.01
+│   │   ├── engine_manifest.json
+│   │   ├── README.md
+│   │   ├── test_tone_engine.py
+│   │   ├── tone_core.py
+│   │   └── tone_state.json
+│   └── tone_engine_frozen_v1.1.02
+│       ├── engine_manifest.json
+│       ├── README.md
+│       ├── test_tone_engine.py
+│       ├── tone_core.py
+│       └── tone_state.json
+├── freeze_batch.sh
+├── freeze_engine.sh
+├── .git
+│   ├── branches
+│   ├── COMMIT_EDITMSG
+│   ├── config
+│   ├── description
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── master
+│   │       └── remotes
+│   │           └── origin
+│   │               └── master
+│   ├── objects
+│   │   ├── 00
+│   │   │   └── dc3b682574cdd9c2cb1a69517b383a2c5f3de8
+│   │   ├── 01
+│   │   │   ├── 48a6c4069e2319a5e5937d9c1aaec279795f34
+│   │   │   └── 67d9b795013362954872595b8029b2eac4b015
+│   │   ├── 03
+│   │   │   ├── 031994905e3e52abf4fca5252c2b7f9c0627e5
+│   │   │   ├── 1ac9deaa2178a9255768fae6fb0dd72158f45c
+│   │   │   └── 753d6afc3532da3f3f6f1fa597fd008fca0fda
+│   │   ├── 04
+│   │   │   ├── 0d5595898dc8195d72c3413c7969957d8f6aeb
+│   │   │   ├── 7cd785dd0ba863d708ac8afc08405d35232c19
+│   │   │   └── d7579d773a8a186ee7dfcc976215c1f75b77ee
+│   │   ├── 05
+│   │   │   └── 6f2fad2a08893527a431d4ebe3bb6c515a4bd2
+│   │   ├── 06
+│   │   │   └── bd7dab55b4e006ce3a3b4a31f6a0480061f86b
+│   │   ├── 07
+│   │   │   ├── 996319ac74191d1de2971cf76ce9b91414e5e7
+│   │   │   ├── c1b25b7112079fbc6a6e798ea2fd7087925f69
+│   │   │   └── d6e99a443edb43a775f81fac8d1e30a64b8588
+│   │   ├── 09
+│   │   │   └── 67ef424bce6791893e9a57bb952f80fd536e93
+│   │   ├── 0a
+│   │   │   ├── a5da3601bf0ddef33b4720d941c6d05676885b
+│   │   │   └── f3370ef04317fe94a5d3c1786ad58151501dc8
+│   │   ├── 0b
+│   │   │   └── 65b2d8227ede72222ff7317dffc800e24c3057
+│   │   ├── 0c
+│   │   │   ├── 12bf60b553ca6f771ce98b55d8b1875ea03f92
+│   │   │   └── 4f0da461f4d98398e4ebbb1e67b713ed57c033
+│   │   ├── 0e
+│   │   │   ├── 4d5e4a6e9be64d0eeffbb1bd96dc78a24b35ca
+│   │   │   ├── 5fe2cde66e53e3bc69108f61ce9f8dba88f43e
+│   │   │   └── 808891dc181f9c879d385a0969167b2aaae466
+│   │   ├── 0f
+│   │   │   └── 849cfc0b7f63f6ed7c3e3b5770ef95355d998c
+│   │   ├── 11
+│   │   │   ├── 6a5e18f9dd185fd2eed1fcf130909bfb667abc
+│   │   │   └── 7ffe42f982ae1c224d4d82ce3cb689d9bdcbf1
+│   │   ├── 12
+│   │   │   └── 3a12f154a216157ed1ba6fe30baa69daf70913
+│   │   ├── 13
+│   │   │   ├── b333ae30b7a609a7b28022a2ee0af182bf18ce
+│   │   │   └── ef01e42a703e84355cb28c99fa92252918f901
+│   │   ├── 14
+│   │   │   ├── 4f51f26b08f8458a92b479d8a263f85b7bb0b6
+│   │   │   ├── 74ddbc07c50b85e5f4fb791780ad29f580e92f
+│   │   │   ├── 8242c299e68dff59286b3b2209a2e86c0a110a
+│   │   │   └── b76823373c0f9d1c2fff5c3064c62b1a27ef22
+│   │   ├── 15
+│   │   │   ├── 10c7b388591175570c8261da28e6c6a3bd6ac3
+│   │   │   ├── 1a4771d9d4602bf0813caccc8e7ca65dede1bc
+│   │   │   ├── 7f0b1a0504d7c8d2fb7168cc99f1b0bc4d4b68
+│   │   │   └── b30392e4fcb667a2e2951785d88b50f2d7bb05
+│   │   ├── 16
+│   │   │   ├── a890b382d772e4c56bbede31e1eb1ac616d438
+│   │   │   ├── ef8488109cbecf3be42e99ae476f7ccf22a581
+│   │   │   ├── f06de7f3e7cb7bc9aedec30a07ae560508498b
+│   │   │   └── ffd879bc9f2170c41b2efb6bf27e70dd3fcb04
+│   │   ├── 17
+│   │   │   └── 6daaa45391c527eef80b41bc19aeae4e9179b5
+│   │   ├── 18
+│   │   │   ├── 16960c56de819f34810dd67eb630ed3e9b6a2e
+│   │   │   ├── 33a2b37ce5c38cac027726ab6530df64dfbecd
+│   │   │   └── 7fda1ea20f73db39bc979cdfcac5f0da3dd26e
+│   │   ├── 19
+│   │   │   └── 68b8c52daa95d8ed898ff98534aedfdd2e1dfb
+│   │   ├── 1b
+│   │   │   ├── a8bfc490540fd1f4e6d3f411e398090ab47177
+│   │   │   ├── c3aa91867ba5197863d488df7579425a7c3648
+│   │   │   └── c91684e7b08561a73a3dc69f38220e268a0b9b
+│   │   ├── 1c
+│   │   │   └── 4243d46e7e8fec1d5f2d79b84081baac7f3699
+│   │   ├── 1d
+│   │   │   ├── bbc6c8f4673834399243492097f45cee0d62d9
+│   │   │   └── ece245039343e68cf8b08cc0bf156eb958a1ff
+│   │   ├── 20
+│   │   │   └── 92a27711191a82e7bb2463738d9121f671c092
+│   │   ├── 21
+│   │   │   ├── 6fca963b88c756c9b2abb3fa98d1baaec111c4
+│   │   │   ├── a11d86d9d09b75a8ec489d34ecd5897db6fcbe
+│   │   │   └── e072fc50cbfd74657fd54de70a565287faae94
+│   │   ├── 23
+│   │   │   ├── 2fb69040b9f4fa5099013b01ac93b8c90cc392
+│   │   │   ├── 497eccaafdc535c9679e1a82834fdca9da738c
+│   │   │   ├── 5346e0dc7cff219e9eb227f8bbf82b6c439629
+│   │   │   ├── 9f5ecb4f2a21146bf82f3e3715099aefc8601f
+│   │   │   └── b705b8a83324ccf514a6fdb0ac93cec649518d
+│   │   ├── 24
+│   │   │   ├── 0057940f553cf7d3ad78e13a855ab94cfe16c3
+│   │   │   ├── 0dcfa99a49fa3a485420c69035139a3cb67f44
+│   │   │   ├── 4292818b6343dd52aceee9c11b7f170c8027ce
+│   │   │   ├── 8bd22bd6f4b738931f442037240d263fda9e04
+│   │   │   ├── b7cdf69e15f6c1b72cb737af8d738f190ce174
+│   │   │   ├── d818ed3df30c5a44230827e44a6349e4cc3f2d
+│   │   │   ├── e9d051398d2dbb91e3ab909c98693655c5c4ec
+│   │   │   └── f50d69467e910c173ee767ac2c5505d4dbee7f
+│   │   ├── 25
+│   │   │   ├── 006e39e4fa5236ac73dd8de5dc0e82b6c699d7
+│   │   │   ├── 7008601b1ee45fd792f3d3413bfbecba2ff157
+│   │   │   ├── accd768f12a4ecafcb556012f608c6ac6c0c04
+│   │   │   └── ba8f44d102d2a038204aca24b3752187ed247a
+│   │   ├── 26
+│   │   │   └── 41f3805454898054d9d02ca9fb8abdb0333195
+│   │   ├── 27
+│   │   │   └── e1fea83a87a1968d8b7697e467d2cc63316efb
+│   │   ├── 28
+│   │   │   ├── 3d42a12f4837e83e47d9dbe7eebc570ea936cd
+│   │   │   └── 7ece4f9a41ae5b0b0a2543fabfcb24420357f8
+│   │   ├── 29
+│   │   │   ├── 1b579858295155c8cfdaca9192001c0601c8ef
+│   │   │   └── 8e005cf008f9342f6208ca1c183fd47410bcdc
+│   │   ├── 2a
+│   │   │   └── 87ea3a6d22ae7db67e488f7f4d1ec8d5efd80a
+│   │   ├── 2b
+│   │   │   └── f746d785104bf949fcd41a14f0f0ac31ae3e14
+│   │   ├── 2c
+│   │   │   └── 4c51a64627e4b909dce1d7bc6bb6ab66179abe
+│   │   ├── 2d
+│   │   │   ├── 4cb61aa9cb066f6cdd97a714ef8137026eda6b
+│   │   │   └── 7cdb3f806ebbcbc2ceea56c0a7ef5114946f01
+│   │   ├── 2e
+│   │   │   └── 8d9508924a184609a9904b2f2d4064b1a9f4a4
+│   │   ├── 2f
+│   │   │   └── 533ad1b64f0995bc1e22e4c7f3ef7472acefe1
+│   │   ├── 31
+│   │   │   ├── 68cf2285e2f29f1316baecc3cc393037947a52
+│   │   │   ├── 6ff21d6080aef4975b78ba4aeb0bd0aeb12893
+│   │   │   └── f0ec648a4ee4bce513ebe49b96a81989e0ee51
+│   │   ├── 32
+│   │   │   └── 41469417cdf4adf966a06bc9cf6d51cbed6ccd
+│   │   ├── 33
+│   │   │   ├── 346d6becfc59f053389a174446a59412b904a9
+│   │   │   └── 88ed6c5407b2c73370f54c12b6374a82f0c4ed
+│   │   ├── 34
+│   │   │   ├── 32115c4b5a45a5e37bb197c5eeebb15212761d
+│   │   │   └── 7afe64b45456d2fb74a1e75113b6df7b4b290f
+│   │   ├── 35
+│   │   │   ├── 4bfb271915dfa4f24ea2c11c1751fe225ab031
+│   │   │   └── a839364c5c7511667626fdc10a0b52317c9d60
+│   │   ├── 37
+│   │   │   └── ef50122d5df3713b47ba41c4ea7f1ffa02f15c
+│   │   ├── 38
+│   │   │   ├── 13d6b466d811ef4f8e791376f2dcda34c4b537
+│   │   │   ├── a3b18e7b9e80599d09fdaa4085d8e72c1130c4
+│   │   │   └── a658bee731ae6247177fc29d5c2fb15f1aa974
+│   │   ├── 39
+│   │   │   └── 90089100cff7dc5390e903e388bf523382a184
+│   │   ├── 3a
+│   │   │   ├── 44dda947b3df60a370285842ddc7d1c84a6b37
+│   │   │   ├── b0135d85740484905b75978a29e05e2c1bc8b8
+│   │   │   └── eaefc5eb29727f081d4032cf3af7fda8f0f6a3
+│   │   ├── 3b
+│   │   │   ├── 84a4859dcd16bef4bdf3fc78041c2f2dcb2368
+│   │   │   └── deb60e743cf30f8398fe7af6378c57c65f647c
+│   │   ├── 3c
+│   │   │   ├── 579cf4a8797e68ea1c458a014c844f693227b0
+│   │   │   ├── 913378e0ab05dc6653a231e0d84d27557337f8
+│   │   │   ├── 99d806eefaa31ad480b2e199e96e675912d3d3
+│   │   │   └── d85363926a91bccbc596145ba621b3e148e83e
+│   │   ├── 3f
+│   │   │   └── 20ca6f841ef50864776c789b265c02e92b1bb9
+│   │   ├── 41
+│   │   │   ├── 0728c4c663ca4fb98df455f670e29826019f66
+│   │   │   ├── 906d433dc9e3d11681d25726fa39e8ccbe5612
+│   │   │   ├── 91010300203685a9fe297f12f467b92e7b7a12
+│   │   │   └── aa6c5df0b3e8ba34685e1a9fb77e37d1cd0dd9
+│   │   ├── 42
+│   │   │   ├── 7c66237f46af0f2774c5ccd61f02cc7111b416
+│   │   │   ├── 93632d7222f9c57840b729e13eeadb482e7dd2
+│   │   │   └── c73e7e66098a0f751bededfa90f65a9614a0f2
+│   │   ├── 43
+│   │   │   └── d5a3810ba9df910448da14167e7074a5634748
+│   │   ├── 44
+│   │   │   └── d3eb921ace1dc09e72ebbab16ab4a571d65027
+│   │   ├── 45
+│   │   │   ├── 1cca7cddd9208231a68b5707eba9bdb654c6b0
+│   │   │   ├── 83ac3e8285d587043e5ebed1bb34f601f221dc
+│   │   │   ├── a4171463aa0ed2ab3afb753a581f195c350c40
+│   │   │   └── ee505e195e71bdbb6eca7bd448c2c8be810121
+│   │   ├── 46
+│   │   │   └── 03ab5715495caa851d7c60edd6868957df4bdf
+│   │   ├── 47
+│   │   │   ├── 8a3027158101098c7b0a09481156199b26eb3f
+│   │   │   └── f12cc0d70678c5e532fc00d503aa45efcbe098
+│   │   ├── 48
+│   │   │   └── e79145c05e43ea3e71f70a54a35339a12140ae
+│   │   ├── 4a
+│   │   │   ├── 67cf87df3f31ae8f84bf6e4543f390316c44a4
+│   │   │   └── f59a8067573747ed80f14cc02f66f2250ca815
+│   │   ├── 4d
+│   │   │   └── 2bdd71f7b3e4a8938b608fdc777fb0a0576baa
+│   │   ├── 4e
+│   │   │   └── a35e4c7b2b0d8931d690ce4b2bfa563b773c00
+│   │   ├── 50
+│   │   │   └── 662c55928f173181f9b47825287cb7f31c1395
+│   │   ├── 51
+│   │   │   ├── 1402a206cb08692c18771de6ae3ece00754f5f
+│   │   │   └── 6881d47cdf470e3615443b5dd6f5ca7b3554b3
+│   │   ├── 52
+│   │   │   └── 307a2d755faa255eb32d43b65820f572b46eb4
+│   │   ├── 53
+│   │   │   └── b5117229058faac3ac9ec6c46ecd7390cc5224
+│   │   ├── 54
+│   │   │   └── 5d98d028f4eb48a00eedc6f5ccbe5cb563dfd2
+│   │   ├── 55
+│   │   │   ├── a1f2e57e90842d8e0b6bc03d120bb8d6b8d56e
+│   │   │   └── ab8cccf14183eb7870a9981dabf74db68985ae
+│   │   ├── 58
+│   │   │   └── 6d8053e76de17375838b644ef27b033e6cd919
+│   │   ├── 5a
+│   │   │   ├── 1b16355cc9e504a2a8ffaffa5ab419cdd80300
+│   │   │   ├── 294b2d82eb33e06b2d3128f9694ce3f9484ab6
+│   │   │   └── db89ff4dd37c35cfb1c7516e38a6efd3347fc9
+│   │   ├── 5b
+│   │   │   ├── 297ca4c0de0546f45e87020a5f66ad3ecc1159
+│   │   │   └── dc736afc9cccac8b58a9570e7a890299a85b5b
+│   │   ├── 5c
+│   │   │   ├── 2fedca32f8b205dc6c9fbb758679ebaa7ac007
+│   │   │   └── c8789fcea8f96d59caff940d13e221929c7999
+│   │   ├── 5d
+│   │   │   ├── 00adc103e567ffde05155bd42d406ea642ef8b
+│   │   │   ├── 38bec948c2b5231f6190cfac2859c821989680
+│   │   │   └── 50111ae7b91d927ff9b166993ad4c3a91f2d02
+│   │   ├── 5e
+│   │   │   ├── 0ce3fa751dc2db93ae03b4a4965bfad1153be0
+│   │   │   └── 71343b0f10f104c1989c20815a35557b013b59
+│   │   ├── 5f
+│   │   │   └── bbbda96f7814ce3ab281bfc9476b5ad08407c8
+│   │   ├── 60
+│   │   │   └── ea74ebb38c92ec364b659b443d74515f788af1
+│   │   ├── 61
+│   │   │   ├── 3f08d538cb3f88e3a4d173cbc7d5c9061902e1
+│   │   │   ├── 5c53940ae8452fb1abb7801937b33a2a1ffc0e
+│   │   │   └── b07f699f3cf1fe7c4bf95a2ec1356be07c8c8a
+│   │   ├── 62
+│   │   │   ├── 153d88932f8b84bcb059ef588c8040be399c1d
+│   │   │   └── f1e8b9e9c9d1b8182419944eb2d54159086037
+│   │   ├── 64
+│   │   │   └── 07aadbcc3063eda8ecdfbf123fb1b74bb4f69c
+│   │   ├── 65
+│   │   │   └── a7d991455e11524e783f7fd5ac5821e7f8ff49
+│   │   ├── 66
+│   │   │   ├── 804b9ca86580a441659368f0e1dff9aef6a089
+│   │   │   └── fb05f347556459ef07aa2a39da8fa5f10dc669
+│   │   ├── 67
+│   │   │   └── 1f14d511c92cdfef199f77000ab369ce831dd3
+│   │   ├── 68
+│   │   │   ├── 398f60a21c28d2c3dabe3717be2a581cd4d28a
+│   │   │   └── f129d2178df75fb416c4208afec2d5ca6f59a8
+│   │   ├── 69
+│   │   │   └── dd8e137146343cbea9639fe07af62ea27d0256
+│   │   ├── 6a
+│   │   │   ├── 2b255391a20583013b69275efef55ec5b2e320
+│   │   │   └── a459b17ce68967ce6b176fa68f0c983cfae9ee
+│   │   ├── 6c
+│   │   │   └── 9d13e8f2421752f05117b99ad223448241d6e1
+│   │   ├── 6d
+│   │   │   └── 507cdc1f0e8fa088f5cf657fc241ce5b2ef667
+│   │   ├── 6e
+│   │   │   └── b9d313b31a75f00f19b0158d1d0f2b941c9788
+│   │   ├── 6f
+│   │   │   ├── 09a74b361b56625668cb2d84a52a22aa642869
+│   │   │   ├── 1d8681380a8e444b93102eeb56139b414c6b67
+│   │   │   ├── 72871c95fab6d0d15f0bc4f2ada9b834635ba8
+│   │   │   └── ce1b59001e8f2f4efbd15504c59e611a58f8d4
+│   │   ├── 70
+│   │   │   └── c03d1355956a9de9ae6b1d85da3e1bd4c33330
+│   │   ├── 71
+│   │   │   ├── 092a31c62ed7bce05b6c7ff90f1d0f38f758c2
+│   │   │   ├── 16bf1f3aa48544e7d5fc9b7a41977248a199a9
+│   │   │   ├── 63baab7e28efe599a845430c7ff1b19b37af6c
+│   │   │   └── 647625d776591a4cacc1102e5cac2738786b5a
+│   │   ├── 72
+│   │   │   └── 52d0eac535eb4c391f8c274fa10c7f1dd7f2cf
+│   │   ├── 73
+│   │   │   └── c38c9c569d815a64466066aee1612afc6dc324
+│   │   ├── 74
+│   │   │   ├── 9d2a6b43c19412c8a113e34659ba239348b14a
+│   │   │   └── f097f307ff997432954ccaf5115c1ca421f844
+│   │   ├── 75
+│   │   │   ├── 35e8584d909e08ffac57842255423e10abaa07
+│   │   │   ├── 5c8190f157d84502a0b67707521b88d6e9f0a5
+│   │   │   └── 85d7685489869b65e5fe3e0558cf4b31640534
+│   │   ├── 76
+│   │   │   ├── 603bcc8771023ff86c8d97f8ddf9c2518400ff
+│   │   │   └── 62365d32faafab200306bbae237c250de0d2e4
+│   │   ├── 77
+│   │   │   └── 9bbfed9aa1d98cc8c0d4e1e4405ab349027d28
+│   │   ├── 78
+│   │   │   └── b32010a2c4dad149704e3cac536e570b7ab5f4
+│   │   ├── 79
+│   │   │   ├── c98487e72007e09b26b657aee124415c5f6318
+│   │   │   ├── df3c70b68438bdeda7120e7a35a43b6ec791bd
+│   │   │   └── f22a784e11225674783dedfbc77c0ccd770474
+│   │   ├── 7a
+│   │   │   └── 22d4ba08abe23c2fe6f9bd5417db454f83136b
+│   │   ├── 7b
+│   │   │   ├── 8fa10a2ff185a8fe001493f9227b8502f73c3c
+│   │   │   └── d4eb2b9096e5ab74de38e0a5870385af4b442b
+│   │   ├── 7c
+│   │   │   └── d871fe6ed3e7404f846710ee6c47ee124a6bdc
+│   │   ├── 7d
+│   │   │   ├── 9c5e2bceadad5e186d605936186883270834c7
+│   │   │   ├── af295a870d98260fc6519e5765b5ad1a14988a
+│   │   │   └── dec46758b3ec062264e1f3e380684f1f0a27ad
+│   │   ├── 7e
+│   │   │   ├── 05a13f0aec61c5e2c3a7a94be1b93265901db7
+│   │   │   ├── 709850da9adc3e2a1a23ff9752194486f0b758
+│   │   │   ├── 72804f58fa2d59add20defe26d6a3e0b92cd51
+│   │   │   └── b893d6da5e3305a1f05a340f29e09c65e18211
+│   │   ├── 7f
+│   │   │   └── 9dae25a6545991c0235dd5d8c7207c01368c90
+│   │   ├── 80
+│   │   │   ├── c56c4bdf5edd24a0c27d528397029a2d680665
+│   │   │   ├── deb66435956ca7ed5d851cc5deff14420d48b5
+│   │   │   └── e3f41f2f727cd0072cc770ca0668bb94c1de56
+│   │   ├── 82
+│   │   │   └── 0fe154612e2104c342a814ccb93031add6594f
+│   │   ├── 84
+│   │   │   ├── 4c35f3e3cb658ab28571b412346fb557266571
+│   │   │   ├── 69840ecb5744e5f9f88a3f3f2afe811f0e3433
+│   │   │   ├── 7b9b178987a43d1c047bc97026dcd3cb907a2d
+│   │   │   └── 821f0a535c3d5f353f748a088495c65fde5394
+│   │   ├── 85
+│   │   │   ├── 72314c2ef2f20ff26390298b70f65a3daf2014
+│   │   │   └── a780912703485f6a0dabc153107b192cc6aade
+│   │   ├── 86
+│   │   │   ├── 0ee03366a62b9848170dd4edb96bc36a10640d
+│   │   │   ├── 76afc0d04e1eee14f23a72ea4d5ec7feac7180
+│   │   │   ├── 8589838d2ed3a6ebb8f04c6f7d0a8e95fac17a
+│   │   │   └── b79634fe97aac677fd858d332edce9156b68d1
+│   │   ├── 88
+│   │   │   ├── b10f4b8dcd7f89030020e81ac571e1f7e462a8
+│   │   │   └── cb20cccf7946a078a7315bcd8447c9046dbf6c
+│   │   ├── 89
+│   │   │   └── bf204499de55b48137dabd7d153bbfa5ab5f36
+│   │   ├── 8a
+│   │   │   ├── 1d35446a317d35f078179c6bd4ccf5d0f159f5
+│   │   │   ├── 4d1aa81f49c70d3d2c37e59f75c59e248ffcd1
+│   │   │   ├── 83dc40ce1fc2019815fc942908c3151bff3383
+│   │   │   └── 8a6b5045c19597698b6d78fbefef7846b0110a
+│   │   ├── 8b
+│   │   │   └── b309588d5ccc72b437a30dca136a7c395090f0
+│   │   ├── 8c
+│   │   │   └── f20b0f339c34953f7856397ac9c0c9cebed3b2
+│   │   ├── 8d
+│   │   │   ├── aaca1ae7d547ab8f1cc543ea3b3c07c6f481ba
+│   │   │   └── cdd2864aeb89f6d72cd9fba97f954ba74f055c
+│   │   ├── 8f
+│   │   │   ├── 604901b8867b429dda6feb3793175a13b8a6c7
+│   │   │   ├── 71304b06f7394cd6ed3487b053579ece13fa04
+│   │   │   ├── 7f382b90a98414a63ce6c13543cd12b01e9865
+│   │   │   └── d111db5a1224d21646c40bcba57b61a377d765
+│   │   ├── 90
+│   │   │   └── 1ba28fe074a2734f6e9f4b62af7d38ed365424
+│   │   ├── 91
+│   │   │   ├── 1bc1450860c3622f27445d544fa71690a7c83b
+│   │   │   └── 4d507625d818b443cccde12682105a0d46168b
+│   │   ├── 92
+│   │   │   ├── 2e0da4fd3e96c4945029f24ab5312ba3def6f0
+│   │   │   ├── 9619c171f9553a43ce8cd3a33aa41a7e12858b
+│   │   │   └── e4142567d6abc56a9661938cd5c99227cf1d0f
+│   │   ├── 93
+│   │   │   └── aa4ea1e9eb78bfba39a7169135e9f2fa588a7f
+│   │   ├── 94
+│   │   │   ├── 2a3167464d0afc45e0456a6019668a023a4b82
+│   │   │   ├── 5d62c19f8466c944ff2f56128f26aff4dad67c
+│   │   │   └── faae60744705b80d8b15ce1abd12f6ac8bd33e
+│   │   ├── 95
+│   │   │   └── 245593f9af11d2fac470cf3a8ae6296964e5e9
+│   │   ├── 98
+│   │   │   ├── 307cd25fc481d865abd00841b69c8153bab743
+│   │   │   └── baac1083c12f2e6cdc639bd487d7d0fa71af69
+│   │   ├── 99
+│   │   │   └── 35234d558afe19fc63b4f215c3e36593f616e8
+│   │   ├── 9b
+│   │   │   └── b67ac9a91cb94f96647a1222bd38834650dc80
+│   │   ├── 9c
+│   │   │   ├── 296b20d2538fe92b305f54cbdb765922471285
+│   │   │   ├── 49f69cdff501da10530028faf8ab3c8f7ee146
+│   │   │   ├── 67e94672bc3080c789e58708374f842f6f5d33
+│   │   │   ├── 7d09a98b63082c00c1e63b39eb7b6c417f57d1
+│   │   │   └── 8223b3bd81e2c0e77ba7d52f3e85cd7fcf50e6
+│   │   ├── 9d
+│   │   │   ├── 6a9505c5c83921f44610627d974e83b2f424af
+│   │   │   └── a0eae768a40ba12c6c34bbfbb6eb262d7407b7
+│   │   ├── 9e
+│   │   │   ├── b7b513cfe9e742799a1837502fc8e5a69248a1
+│   │   │   └── bb29f6fae0fa9bea39052c3ffcea01c0288c2b
+│   │   ├── 9f
+│   │   │   └── 6ab06f3e0245452adf28caeab677f99e948b6c
+│   │   ├── a0
+│   │   │   ├── 02bc3c624e8338ce1c2a9805a3b4b153d12663
+│   │   │   ├── 70e8ff44e6f36f3bd4cec7406736da37ec7d00
+│   │   │   ├── c01482c6a916b7df287523a51b3d31946ea012
+│   │   │   ├── db4383fb904fcd70e849a0523cba9c8e12e682
+│   │   │   └── e050e4fae06875b5129309875e220306e85bf7
+│   │   ├── a1
+│   │   │   ├── 300776849757eb61625a276e569a0c06ee845b
+│   │   │   └── 69797e93249fb6e74e56edd98696e221222209
+│   │   ├── a2
+│   │   │   ├── 0fe8b2b383ea00c994441bff9f818f9ce58bf6
+│   │   │   └── 40ee75012d03995895bde45b7e917f1370a517
+│   │   ├── a4
+│   │   │   ├── 0f165aa77cc1c530d428c4a3340a4615efbeed
+│   │   │   ├── 9dc5cef0f9151e52ec45d44668dd86e02a2def
+│   │   │   ├── a39e7c1aa6254f7578cbbecd95464f199d81f4
+│   │   │   └── b3133d90c7f5a927ef736fc74932909b2049eb
+│   │   ├── a5
+│   │   │   ├── 3cd08307861883b6c2e31d43bac531922c604a
+│   │   │   ├── 3e5fb6a7fb450b194ecbfe206fb44a130787f6
+│   │   │   ├── 85cab38bb288949f831de0e6c53a1c7e666a26
+│   │   │   ├── b9d3565b72283cc5d660d406721f0ecafcca95
+│   │   │   └── efcf1dc51f8b4ef4ea592d7a2a69f90a008654
+│   │   ├── a6
+│   │   │   ├── 810fcc60961647b0352144c2f38f80b54426dd
+│   │   │   ├── 9cfd9bb78c99c788ff7ded5b8ccafccc38b76c
+│   │   │   └── ad1219d4b87db0059c1a3dcb43f95d5f13c651
+│   │   ├── a7
+│   │   │   ├── 4567b1b2f7d270cfd85ca82c0a320f0f97918c
+│   │   │   └── ccbc5dba95663b2715cea1c32406609b81be06
+│   │   ├── a8
+│   │   │   ├── 52ce49100f4c026bc7324f47b80a6b8313a810
+│   │   │   ├── 7212b75c0f476bb3576644e84a385b39b7fa85
+│   │   │   └── ccf163a071ea16fc7bff869c8f030b17744a99
+│   │   ├── a9
+│   │   │   └── fa56e5d93d244c0945116fc34f87765979e611
+│   │   ├── aa
+│   │   │   ├── 3f2b672f0136ed6922a801099f44be900753cd
+│   │   │   ├── 5318f77e10579c8ebc22d4c10eae27634c280a
+│   │   │   ├── 98393f973392b74b5173bf2e949f1a5b52a615
+│   │   │   └── d68440d5e191f7ce90edf3548d0c1dcc2b3c7a
+│   │   ├── ab
+│   │   │   └── 1003ffad8245f681c93b47744640a9fa0a8c0c
+│   │   ├── ac
+│   │   │   ├── 1520fbc4e566ea597fce715420c211fcd3d13c
+│   │   │   ├── 1ae8fc4c07af3fdcc732787a61ebe5ce46441e
+│   │   │   ├── 40473b341243308dd979300d786dadfb1b955c
+│   │   │   ├── 4c88673bb48f17de113171ac8a5cab7541ba91
+│   │   │   ├── e989da8fc4c5d7d271b42ebdb423666421a117
+│   │   │   └── f65fa7c4d3a5979f04860c1347240a2fa66a08
+│   │   ├── ad
+│   │   │   ├── 53937c3ffa73b9adcd52afb992c86d169cfd61
+│   │   │   ├── a47dd4c66b12487ce9c9f1b42194bba1925de9
+│   │   │   ├── bf64c7cf96175cbfbf2a4c9e037761dfcd808d
+│   │   │   └── c25f3332473a97f763c3ab39c6e5b99880c224
+│   │   ├── ae
+│   │   │   ├── 1d3e015d02751f2c51afacdc67cf03680ca502
+│   │   │   ├── 4dac87f307642a0a4450e713a6982671d84622
+│   │   │   └── 6791d2010bdd10a8539b48cfd4f8991ca5f561
+│   │   ├── af
+│   │   │   ├── 1e682db94a97b1317b74f58329c5f7b015490b
+│   │   │   └── 61aa564bad4ebca5d68ec47a69d8cdfc4d98b4
+│   │   ├── b0
+│   │   │   ├── 2808ce1c3a3e61e3d1523ce05fa0fbf94f86bd
+│   │   │   └── 940ccc4120acf3448fbc20848095c6eb68d0e3
+│   │   ├── b1
+│   │   │   ├── a8d4951597cf25b509678a17af6fbc2b28a10f
+│   │   │   ├── b5be26c649c5ade421568c8d625c293d33d927
+│   │   │   ├── bcd4115893f33fe97b792e5a94e1efa8173b7d
+│   │   │   ├── d3f9e566c6482cf1be4d12fab9196ed37d8e24
+│   │   │   └── d6bcb3ab0d6d4ce4fb69b009a4a74964522ebd
+│   │   ├── b2
+│   │   │   ├── 9c21046fd62db5f89353c4feed4d22a474bf21
+│   │   │   └── bd353a34a02b7ed82bf6538dccd16ccef7891a
+│   │   ├── b3
+│   │   │   └── f1699d4c820524454180c88fe330aea75a50e0
+│   │   ├── b4
+│   │   │   └── 77c574b919fef404e5b34d464630af1b4d9c57
+│   │   ├── b5
+│   │   │   ├── 0ec1369b7311207420fb5543afb6a27477d288
+│   │   │   ├── 2e98d6dd2658ca62f691e0e4da535591bb7acc
+│   │   │   └── db5f8df3daa4df23445fa3e5a97997b78892c3
+│   │   ├── b6
+│   │   │   ├── 266845cb44867a5f3df5ef5a9e207895433ee5
+│   │   │   ├── 7c7d4bf6888ff4b3942baaa06d122eebced729
+│   │   │   └── 889c8a9e8730d961e720521bc29d2acf039a85
+│   │   ├── b7
+│   │   │   ├── 661d0a7a16ed911708d1299e41dff2a7e9019f
+│   │   │   └── acaa86566018648e1d2ae1ba3b746dba3229f2
+│   │   ├── b8
+│   │   │   └── 0980631060c9748b0ffb853f77c720d3524e32
+│   │   ├── ba
+│   │   │   ├── 639b12dd9c01bb2a561769fe997e7274302b7a
+│   │   │   ├── 8fcd82290bb95c5fa42408c32698752b706412
+│   │   │   └── c990a83e14742560d41c4efbdff28eb8ca1e83
+│   │   ├── bb
+│   │   │   ├── 4831dc83598a27d912db85e5b979ea114d84e9
+│   │   │   └── c611d16772f55af3a83f8a19c67c95d1a2d6a1
+│   │   ├── bc
+│   │   │   ├── 3e505346af9a13fbf63378d29cba0ac017fd17
+│   │   │   ├── 6573cb1c2e496f8aca859f0a4924def84c981c
+│   │   │   └── 663223a15b8c050cd24f18c070a17f5f23b4d5
+│   │   ├── bd
+│   │   │   └── 2c50d7ed161f088c3eb918688c6c3d4cd66dd8
+│   │   ├── be
+│   │   │   ├── 4c51b4e61d3e7e9d4f0a04849594679863b696
+│   │   │   └── ccae52034c6d64424b58c8d7ce0b607026d8b0
+│   │   ├── bf
+│   │   │   └── a445c5b02578fec39af676caec25cb801cdf0f
+│   │   ├── c0
+│   │   │   ├── 240827e6fd67c64856e076bbaaf2476fe2c815
+│   │   │   ├── 3de9e86582d214b20f503a9ecdd95bdf50dfa9
+│   │   │   ├── 600022454f7b887fb6f9003a1e7f635169c38d
+│   │   │   └── ae4044a28a1503ad6f39366b897c2717205b50
+│   │   ├── c1
+│   │   │   └── 63d4528cb3e90baa532c2a35a2488276fa4a1b
+│   │   ├── c2
+│   │   │   ├── 3aa6cb7c8db632fc53c2f38284e9f5f11fb050
+│   │   │   └── 6b304b2349163cb22c14101ef7c6267826ed1a
+│   │   ├── c3
+│   │   │   ├── df52689de9271543383e32c634d4a5bc1e6149
+│   │   │   └── edcdb66aa16836dcbc1d6d6ee6353959d7426a
+│   │   ├── c4
+│   │   │   └── e15f4db26aec46eccd54a284bf336f3dce5813
+│   │   ├── c6
+│   │   │   ├── 0a7eefa580a9abf7069473547a91b26a48aed9
+│   │   │   ├── 185cf6810474ee338a91408decb723731bebf9
+│   │   │   ├── 3d891dff01fc8ad35896b778efe0582c7ae008
+│   │   │   └── dfe87654b56da2ba000e86de531b5c832e345c
+│   │   ├── c7
+│   │   │   ├── 564a1322d3ce193a2389e8cce29763cd866400
+│   │   │   ├── f6d4e9147e28de15f78d53a026954c4092677f
+│   │   │   └── f8a2238d5a8972ac1c00e5df9085f5a43de8a5
+│   │   ├── c8
+│   │   │   ├── e723558e2f3156e76d37c1257bb721dc2926dd
+│   │   │   └── f07f98ed488c7dc49bda83cbdac703f208f937
+│   │   ├── c9
+│   │   │   └── 00d9b250bfc598e8c87d11d37198385ac0d1d1
+│   │   ├── ca
+│   │   │   ├── 025480e050df55701b29130160ae5ef54e0b03
+│   │   │   └── b4141fbf36f525797b4bbb1de58fadfe7818fb
+│   │   ├── cb
+│   │   │   └── 24f057d60feea6eee764cf1027ad43ed2ca096
+│   │   ├── cc
+│   │   │   ├── 45254da93b67fd34f02036122a29ec34cbc568
+│   │   │   ├── 99f616a6f0ab120df8af21889d38b4d59256a2
+│   │   │   └── f14d4ed180647fbf3a7afe4edf4061213b2ed8
+│   │   ├── cd
+│   │   │   ├── 3690e2d83488e465a2b382217a52d367411538
+│   │   │   ├── 54fcd341bf48fb24ae481cd9dc333058434029
+│   │   │   └── ec2cf309f2f462e6eb51ad13950ed2aa3bd7f9
+│   │   ├── ce
+│   │   │   ├── bb1b53dcdfb477c44391be578848322624a7f4
+│   │   │   └── e3a4cce90610f506e39bb71179f7d96536a9ee
+│   │   ├── cf
+│   │   │   └── 2d0e9050f33becf7ded67e48aa5253a7b6d56f
+│   │   ├── d0
+│   │   │   └── fa69434c6f076b7db9fc66a781638fedb0c5fb
+│   │   ├── d1
+│   │   │   └── 4ab99f926157255e0f0e48b3d0906c4050c084
+│   │   ├── d3
+│   │   │   └── e5253fd6b481f9f131486ab1e78895d5315a96
+│   │   ├── d4
+│   │   │   ├── 05549ce5ca083aa606e1c989ed974570b04800
+│   │   │   ├── 396267642bd6fdd419a02015a882a47281452c
+│   │   │   ├── 46d3ef72dbcdf5abb2360c236fe60403d4958c
+│   │   │   └── adcef29cbb7481793de6782b1f80f83b59ee1c
+│   │   ├── d5
+│   │   │   └── 45c38e6f9ee691a27dbcdaf4109129045e41bc
+│   │   ├── d6
+│   │   │   ├── 0efae8e4046c8f7cab3f5055743e26c3e59b1c
+│   │   │   └── b86a77651b0f0a137bd3d3761c33c3f99f3a5f
+│   │   ├── d7
+│   │   │   ├── 9b4467bbcee4e885b72ff63243d6b6f071faa7
+│   │   │   └── dd89b96da003464a458e555690ce8b926e4078
+│   │   ├── d8
+│   │   │   └── 6151dbc59be4898b7ecc524a9b13b96395fbc9
+│   │   ├── d9
+│   │   │   └── 12ec8c77738289825f28500d122cb66ca8bdc6
+│   │   ├── db
+│   │   │   └── 5aca320c439abe62c284d63832243a7fdf0637
+│   │   ├── dc
+│   │   │   ├── 78a38824df6d98e4de59996cd59da6809882cd
+│   │   │   └── 9f9bb9f7e9c563cf876e0f329f9c02337edb9a
+│   │   ├── de
+│   │   │   ├── 16f55cb546b51ee7a5ca77aa1a917450ee7419
+│   │   │   └── 8b31d46f26cfb1ac86ba1fb8b3eef6260e958f
+│   │   ├── e0
+│   │   │   ├── 4cdad68f96a78d3bf72ff32f875dc1331b0688
+│   │   │   ├── 8a079cd5db1be15022cbe4057c4cdb6d0c598b
+│   │   │   ├── a74fbb17678d60711dd64dbe8be5389f032017
+│   │   │   ├── be1fbd3e1554f31b61d8146475c4cdde2910a8
+│   │   │   ├── cd6d83daad057da645553e44a7c12bd72c2b86
+│   │   │   └── f7b9470d8c383a1db0490744ca5f7a2957031f
+│   │   ├── e1
+│   │   │   └── 2e2bb63df8ebf904881b1c96f771e2e1df619e
+│   │   ├── e2
+│   │   │   ├── 3d38d0b6300ba04e78a7a2863bc0d0eb69094a
+│   │   │   ├── 4bf899bab5bfed9a5376252d08e29b5db37900
+│   │   │   └── 8211b7905d110a37dd92b7cf0e3643e7ae997c
+│   │   ├── e3
+│   │   │   ├── 0041f62524a35449450172651059690f880046
+│   │   │   ├── 868cb615ffc37d99dafa16dde9fee601195c62
+│   │   │   ├── a49876ab126b8769abd40d261797709d7874e4
+│   │   │   └── e53256892b1a5f3481a2f00b67d3d49213b15a
+│   │   ├── e4
+│   │   │   └── 679dd93b08141bf398ac08c047f896090a89a5
+│   │   ├── e5
+│   │   │   ├── 129fe97bf01dea73d121899a8f8bd6442b7b44
+│   │   │   ├── b6631a6f0d299780d30f8528e6a230efe68a3b
+│   │   │   └── e4f1a12001dcdd38e6297b0f1a2377b9066adb
+│   │   ├── e6
+│   │   │   ├── 7d14d2b833cb037a1e3f9027c460b195892b21
+│   │   │   ├── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   │   └── ebf3efef7781bb9b078e5db3e9fb2b222cc44c
+│   │   ├── e7
+│   │   │   └── 72ad8bbe1d5c4ebffb27201f8e6170c1ea3dad
+│   │   ├── e8
+│   │   │   ├── 7b6736e1f7ccabbd177e305d1abd3c2526ac69
+│   │   │   └── c4818e83f47566e4784682323aabcde5f0f243
+│   │   ├── ea
+│   │   │   └── 7882ae42030f82195387bf5a25511da66c4b65
+│   │   ├── eb
+│   │   │   ├── 2068804a1c5e59733393d19779ef31746b3c2a
+│   │   │   └── 4659659708665569593f5f6d1647292281df4a
+│   │   ├── ec
+│   │   │   └── 6a0193a982863eb901ff7a5b3a82977b7df39c
+│   │   ├── ed
+│   │   │   └── b80b043c358b14db8d47f1452611e07e3faa66
+│   │   ├── ee
+│   │   │   ├── 1ae42108714b049d008121bad86aef6ecd2964
+│   │   │   └── a132250c51648956f88a6c2e3f2b4ddd4a3854
+│   │   ├── f0
+│   │   │   ├── 608ab7ffd0d591a31c55f6de4412fff0fa2e92
+│   │   │   ├── a2647b0702d928225c5d666ca9d06b0614a4b8
+│   │   │   └── fb4cd2e17f4f2fd35a19bc89251a524eed6677
+│   │   ├── f1
+│   │   │   └── 2237e99cf2364b3f1ca0ba0fcaae260af0aa2a
+│   │   ├── f2
+│   │   │   ├── 8b98bd54dae20178f056f235570f15bc39ea24
+│   │   │   └── 98bc57f540503a4f19e9fec92777650e80b82e
+│   │   ├── f4
+│   │   │   ├── c98965225d67f89f426843acfafd3743a7c3bf
+│   │   │   └── f80de6882037615934921b3a11690b0c4d4552
+│   │   ├── f5
+│   │   │   ├── 35c7c492af57afd8fce546c320c426b50f4e57
+│   │   │   ├── 5e6f36eee7847b7508bc04510480fe5115afe2
+│   │   │   ├── 920acd34df3426d8fe2688a39980d6f4154f26
+│   │   │   └── ee23d32bb289f345af25ff941f1b84220e11d7
+│   │   ├── f7
+│   │   │   └── 251b29e51f64db60819b79d3bb8d0e8307531e
+│   │   ├── f8
+│   │   │   ├── 1de282dd55d29ff1b8b8b1617a84fddde9a445
+│   │   │   └── 76f86311d24ab591741ec7f02becf0847bd8ac
+│   │   ├── f9
+│   │   │   └── dfd72d7c44656c31327f728b9b75595c4bd2b2
+│   │   ├── fa
+│   │   │   ├── 113930c10e1e2952728d1b7b2c9187c311b1d0
+│   │   │   ├── 48579f44a2f4f6e468ee1ae425c39f062dc117
+│   │   │   └── dad1f338596f5d9a9a102167c17af3507a6eb6
+│   │   ├── fb
+│   │   │   ├── 58bccdeb2e9407c88e8868cfbdb99dd06dce9a
+│   │   │   └── 916aa1963148c98164b0b00b676d048d7b2937
+│   │   ├── fc
+│   │   │   ├── 659b38305f3cec66e958273c242a4f1b5687e1
+│   │   │   ├── 82d472e9ec669c14da3bf19f714edd2c0ebb50
+│   │   │   └── d49a13d3b3bcb0412f39f8c450c0feab14a218
+│   │   ├── fd
+│   │   │   └── a15ee2cd62d886b0d9dd39c78f810a6bcd1ede
+│   │   ├── fe
+│   │   │   ├── 51488c7066f6687ef680d6bfaa4f7768ef205c
+│   │   │   ├── 6ce0885de1b72f5a8b05c19f52aba5c87ec637
+│   │   │   ├── 999639aea1c50e841a15f3c607d15f6fd4edb9
+│   │   │   ├── eea9a7ebcf3c47b33a9471c4a323f76f3539fc
+│   │   │   └── fa436757dd451246033f152bd1bd0bfe578f68
+│   │   ├── ff
+│   │   │   └── 63d5873d9b3d0f5564602bfc471d972895d976
+│   │   ├── info
+│   │   └── pack
+│   └── refs
+│       ├── heads
+│       │   └── master
+│       ├── remotes
+│       │   └── origin
+│       │       └── master
+│       └── tags
+│           ├── freeze_drift_arbitration_engine_v1.0.01
+│           ├── freeze_drift_arbitration_engine_v1.0.02
+│           ├── freeze_field_resonance_mapper_v1.0.01
+│           ├── freeze_recursive_field_engine_v1.0.01
+│           ├── freeze_symbolic_capacitor_engine_v1.0.01
+│           ├── freeze_symbolic_glyph_engine_v1.0.01
+│           └── freeze_tone_engine_v1.0.01
+├── .gitignore
+├── __init__.py
+├── plugins
+│   ├── broken_plugin.py
+│   ├── good_plugin.py
+│   └── hello_plugin.py
+├── public_web
+│   ├── css
+│   └── install_guide
+├── runtime_wrappers
+│   ├── aiweb_os_v1
+│   │   ├── run_system_test.py
+│   │   └── test_log.txt
+│   ├── compute_host_demo
+│   ├── engine_freeze_log.txt
+│   ├── protoforge
+│   │   ├── config.json
+│   │   ├── engine_freeze_log.txt
+│   │   ├── log
+│   │   │   └── protoforge_log.txt
+│   │   ├── run.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   └── UI
+│   │       └── terminal_display.py
+│   ├── protoforge_frozen_v1.01_ui
+│   │   ├── config.json
+│   │   ├── log
+│   │   │   └── protoforge_log.txt
+│   │   ├── run.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   └── UI
+│   │       └── terminal_display.py
+│   ├── protoforge_frozen_v1.03_os_ui_rfe_dae
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── log
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       └── terminal_display.py
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       └── terminal_display.py
+│   ├── protoforge_frozen_v1.04_db_enabled
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── log
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── field_state.json
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       └── terminal_display.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       ├── engine_manifest.json
+│   │       ├── README.md
+│   │       ├── static
+│   │       │   ├── aiwebbgv2.png
+│   │       │   ├── dashboard.js
+│   │       │   └── style.css
+│   │       ├── style.css
+│   │       ├── templates
+│   │       │   └── index.html
+│   │       ├── test_log.txt
+│   │       ├── test_ui_render.py
+│   │       └── ui_server.py
+│   ├── protoforge_frozen_v1.05_db_enabled
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── engines
+│   │   │   └── symbolic_capacitor_engine_frozen_v1
+│   │   │       ├── capacitor_core.py
+│   │   │       ├── engine_manifest.json
+│   │   │       ├── README.md
+│   │   │       └── resonance_sync.json
+│   │   ├── log
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── field_state.json
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       └── terminal_display.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       ├── engine_manifest.json
+│   │       ├── README.md
+│   │       ├── static
+│   │       │   ├── aiwebbgv2.png
+│   │       │   ├── dashboard.js
+│   │       │   └── style.css
+│   │       ├── style.css
+│   │       ├── templates
+│   │       │   └── index.html
+│   │       ├── test_log.txt
+│   │       ├── test_ui_render.py
+│   │       └── ui_server.py
+│   ├── protoforge_frozen_v1.06_db_enabled
+│   │   ├── config.json
+│   │   ├── engine_manifest.json
+│   │   ├── engines
+│   │   │   ├── christping_listener_frozen_v1
+│   │   │   │   ├── christ_listener.py
+│   │   │   │   ├── engine_manifest.json
+│   │   │   │   ├── listener_config.json
+│   │   │   │   ├── pingback_log.jsonl
+│   │   │   │   └── README.md
+│   │   │   └── symbolic_capacitor_engine_frozen_v1
+│   │   │       ├── capacitor_core.py
+│   │   │       ├── engine_manifest.json
+│   │   │       ├── README.md
+│   │   │       └── resonance_sync.json
+│   │   ├── log
+│   │   │   ├── arbitration_log.jsonl
+│   │   │   ├── field_state.json
+│   │   │   └── protoforge_log.txt
+│   │   ├── protoforge
+│   │   │   ├── config.json
+│   │   │   ├── engine_freeze_log.txt
+│   │   │   ├── log
+│   │   │   │   └── protoforge_log.txt
+│   │   │   ├── run.py
+│   │   │   ├── test_harness
+│   │   │   │   ├── run_system_test.py
+│   │   │   │   └── test_log.txt
+│   │   │   └── UI
+│   │   │       └── terminal_display.py
+│   │   ├── README.md
+│   │   ├── run.py
+│   │   ├── run_system_test.py
+│   │   ├── test_harness
+│   │   │   ├── run_system_test.py
+│   │   │   └── test_log.txt
+│   │   ├── test_log.txt
+│   │   └── UI
+│   │       ├── engine_manifest.json
+│   │       ├── README.md
+│   │       ├── static
+│   │       │   ├── aiwebbgv2.png
+│   │       │   ├── dashboard.js
+│   │       │   └── style.css
+│   │       ├── style.css
+│   │       ├── templates
+│   │       │   └── index.html
+│   │       ├── test_log.txt
+│   │       ├── test_ui_render.py
+│   │       └── ui_server.py
+│   └── protoforge_v1.04_db_enabled
+│       ├── config.json
+│       ├── engine_manifest.json
+│       ├── log
+│       │   ├── arbitration_log.jsonl
+│       │   ├── field_state.json
+│       │   └── protoforge_log.txt
+│       ├── protoforge
+│       │   ├── config.json
+│       │   ├── engine_freeze_log.txt
+│       │   ├── log
+│       │   │   └── protoforge_log.txt
+│       │   ├── run.py
+│       │   ├── test_harness
+│       │   │   ├── run_system_test.py
+│       │   │   └── test_log.txt
+│       │   └── UI
+│       │       └── terminal_display.py
+│       ├── README.md
+│       ├── run.py
+│       ├── run_system_test.py
+│       ├── test_harness
+│       │   ├── run_system_test.py
+│       │   └── test_log.txt
+│       ├── test_log.txt
+│       └── UI
+│           ├── engine_manifest.json
+│           ├── README.md
+│           ├── static
+│           │   ├── aiwebbgv2.png
+│           │   ├── dashboard.js
+│           │   └── style.css
+│           ├── style.css
+│           ├── templates
+│           │   └── index.html
+│           ├── test_log.txt
+│           ├── test_ui_render.py
+│           └── ui_server.py
+├── symbolic_layers
+│   ├── glyph_ui_overlay
+│   ├── recursion_mapper
+│   └── resonance_display
+└── system_docs
+    ├── stack_manifest.json
+    └── tree_snapshots
+        ├── aiweb_tree_20250426_214142.txt
+        ├── aiweb_tree_20250426_214152.txt
+        ├── tree_snapshot_20250426_215449.txt
+        ├── tree_snapshot_20250426_215655.txt
+        ├── tree_snapshot_20250426_215659.txt
+        ├── tree_snapshot_20250426_230421.txt
+        ├── tree_snapshot_20250426_230433.txt
+        ├── tree_snapshot_20250426_230635.txt
+        ├── tree_snapshot_20250426_231708.txt
+        ├── tree_snapshot_20250426_233355.txt
+        ├── tree_snapshot_20250427_002356.txt
+        ├── tree_snapshot_20250427_003802.txt
+        ├── tree_snapshot_20250427_005532.txt
+        ├── tree_snapshot_20250427_010834.txt
+        └── tree_snapshot_20250427_012543.txt
+
+428 directories, 1232 files

@@ -1,0 +1,10 @@
+{
+  "engine": "symbolic_drift_visualizer",
+  "version": "v1.0.01",
+  "frozen_as": "symbolic_drift_visualizer_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Captures, logs, and visualizes symbolic drift patterns across recursion fields. Provides early warning of destabilization by tracking phase deviations over recursive iterations.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
