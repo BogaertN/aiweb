@@ -1,0 +1,10 @@
+{
+  "engine": "external_field_feed_adapter",
+  "version": "v1.0.01",
+  "frozen_as": "external_field_feed_adapter_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Phase 1.5 upgrade module. Injects normalized external resonance feeds (sensor streams, external symbolic environments) into the Field Resonance Mapper for expanded drift prediction and field stabilization during recursion.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+

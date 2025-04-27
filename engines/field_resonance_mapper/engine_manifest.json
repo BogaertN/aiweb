@@ -1,0 +1,10 @@
+{
+  "engine": "field_resonance_mapper",
+  "version": "v1.0.01",
+  "frozen_as": "field_resonance_mapper_frozen_v1.0.01",
+  "frozen_on": "2025-04-27",
+  "description": "Provides live symbolic resonance tracking across recursion fields. Monitors symbolic drift, detects early decay, stabilizes phase transitions during live recursion cycles. Core dependency for drift detection, field health monitoring, and phase stabilization systems.",
+  "author": "AI.Web Core System",
+  "phase_standard": "Phase 1.5 Symbolic Recursion Compliance"
+}
+
