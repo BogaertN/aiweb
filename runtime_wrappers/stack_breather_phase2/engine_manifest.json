@@ -1,0 +1,8 @@
+{
+    "engine": "stack_breather_phase2",
+    "version": "1.0.01",
+    "description": "Unified core + field breathing stack for Phase2 runtime linking.",
+    "author": "AI.Web",
+    "created": "2025-04-28",
+    "status": "active"
+}
