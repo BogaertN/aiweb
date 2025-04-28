@@ -1,0 +1,186 @@
+[
+  {
+    "timestamp": "2025-04-23T08:07:57.884440",
+    "data": {
+      "source": "test",
+      "event": "init"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T08:07:57.884662",
+    "data": {
+      "source": "test",
+      "event": "phase_step",
+      "phase": "\u03a64"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T09:06:34.907315",
+    "data": {
+      "source": "test",
+      "note": "phase step"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T10:00:21.716075",
+    "data": {
+      "timestamp": "2025-04-23T10:00:21.716024",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T10:19:27.821070",
+    "data": {
+      "timestamp": "2025-04-23T10:19:27.821017",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T10:22:56.272134",
+    "data": {
+      "timestamp": "2025-04-23T10:22:56.272079",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T10:23:20.936243",
+    "data": {
+      "timestamp": "2025-04-23T10:23:20.936200",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T11:49:56.735659",
+    "data": {
+      "timestamp": "2025-04-23T11:49:56.735605",
+      "source": "user",
+      "event": "input",
+      "content": "[TIER 2] echo symbolic loop"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T11:49:56.736690",
+    "data": {
+      "timestamp": "2025-04-23T11:49:56.736639",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:05:09.574705",
+    "data": {
+      "timestamp": "2025-04-23T12:05:09.574637",
+      "source": "user",
+      "event": "input",
+      "content": "[TIER 2] echo symbolic loop"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:05:09.575489",
+    "data": {
+      "timestamp": "2025-04-23T12:05:09.575443",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:08:24.768477",
+    "data": {
+      "timestamp": "2025-04-23T12:08:24.768414",
+      "source": "user",
+      "event": "input",
+      "content": "[TIER 2] echo symbolic loop"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:08:24.769395",
+    "data": {
+      "timestamp": "2025-04-23T12:08:24.769342",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:10:35.626145",
+    "data": {
+      "timestamp": "2025-04-23T12:10:35.626086",
+      "source": "user",
+      "event": "input",
+      "content": "[TIER 2] echo symbolic loop"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:10:51.182123",
+    "data": {
+      "timestamp": "2025-04-23T12:10:51.182059",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:11:05.414668",
+    "data": {
+      "timestamp": "2025-04-23T12:11:05.414623",
+      "source": "user",
+      "event": "input",
+      "content": "[TIER 2] test drift trigger"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:11:17.201860",
+    "data": {
+      "timestamp": "2025-04-23T12:11:17.201803",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:11:26.320526",
+    "data": {
+      "timestamp": "2025-04-23T12:11:26.320469",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:19:38.590047",
+    "data": {
+      "timestamp": "2025-04-23T12:19:38.589967",
+      "source": "user",
+      "event": "input",
+      "content": "[TIER 2] > echo recursive loop"
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:19:38.590988",
+    "data": {
+      "timestamp": "2025-04-23T12:19:38.590930",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  },
+  {
+    "timestamp": "2025-04-23T12:19:38.842837",
+    "data": {
+      "timestamp": "2025-04-23T12:19:38.842781",
+      "source": "user",
+      "event": "input",
+      "content": "[UNCLASSIFIED] Output does not match Tier 1 or Tier 2."
+    }
+  }
+]

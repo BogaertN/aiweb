@@ -1,0 +1,22 @@
+[2025-04-23T08:06:11.132003] [ERROR] Failed to write to stack: Expecting value: line 1 column 1 (char 0)
+[2025-04-23T08:07:57.884575] Memory added: {'source': 'test', 'event': 'init'}
+[2025-04-23T08:07:57.884833] Memory added: {'source': 'test', 'event': 'phase_step', 'phase': 'Φ4'}
+[2025-04-23T09:06:34.907403] Memory added: {'source': 'test', 'note': 'phase step'}
+[2025-04-23T10:00:21.716185] Memory added: {'timestamp': '2025-04-23T10:00:21.716024', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T10:19:27.821182] Memory added: {'timestamp': '2025-04-23T10:19:27.821017', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T10:22:56.272269] Memory added: {'timestamp': '2025-04-23T10:22:56.272079', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T10:23:20.936352] Memory added: {'timestamp': '2025-04-23T10:23:20.936200', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T11:49:56.735824] Memory added: {'timestamp': '2025-04-23T11:49:56.735605', 'source': 'user', 'event': 'input', 'content': '[TIER 2] echo symbolic loop'}
+[2025-04-23T11:49:56.736816] Memory added: {'timestamp': '2025-04-23T11:49:56.736639', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T12:05:09.574886] Memory added: {'timestamp': '2025-04-23T12:05:09.574637', 'source': 'user', 'event': 'input', 'content': '[TIER 2] echo symbolic loop'}
+[2025-04-23T12:05:09.575610] Memory added: {'timestamp': '2025-04-23T12:05:09.575443', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T12:08:24.768655] Memory added: {'timestamp': '2025-04-23T12:08:24.768414', 'source': 'user', 'event': 'input', 'content': '[TIER 2] echo symbolic loop'}
+[2025-04-23T12:08:24.769525] Memory added: {'timestamp': '2025-04-23T12:08:24.769342', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T12:10:35.626296] Memory added: {'timestamp': '2025-04-23T12:10:35.626086', 'source': 'user', 'event': 'input', 'content': '[TIER 2] echo symbolic loop'}
+[2025-04-23T12:10:51.182268] Memory added: {'timestamp': '2025-04-23T12:10:51.182059', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T12:11:05.414835] Memory added: {'timestamp': '2025-04-23T12:11:05.414623', 'source': 'user', 'event': 'input', 'content': '[TIER 2] test drift trigger'}
+[2025-04-23T12:11:17.202033] Memory added: {'timestamp': '2025-04-23T12:11:17.201803', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T12:11:26.320704] Memory added: {'timestamp': '2025-04-23T12:11:26.320469', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T12:19:38.590279] Memory added: {'timestamp': '2025-04-23T12:19:38.589967', 'source': 'user', 'event': 'input', 'content': '[TIER 2] > echo recursive loop'}
+[2025-04-23T12:19:38.591150] Memory added: {'timestamp': '2025-04-23T12:19:38.590930', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
+[2025-04-23T12:19:38.843040] Memory added: {'timestamp': '2025-04-23T12:19:38.842781', 'source': 'user', 'event': 'input', 'content': '[UNCLASSIFIED] Output does not match Tier 1 or Tier 2.'}
