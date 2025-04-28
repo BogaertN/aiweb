@@ -1,0 +1,5 @@
+{
+  "stack": "Control Stack",
+  "version": "v1.0",
+  "description": "Bootstraps and breathes core AI.Web runtime control phases."
+}

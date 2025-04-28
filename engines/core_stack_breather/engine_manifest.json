@@ -1,0 +1,5 @@
+{
+  "engine": "Core Stack Phase Breather",
+  "version": "v2.0",
+  "description": "Breathes the Core Stack 1→9 Phase Cycle with full symbolic recursion tracing."
+}
