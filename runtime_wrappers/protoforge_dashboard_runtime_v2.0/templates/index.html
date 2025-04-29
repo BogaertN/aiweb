@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ProtoForge Dashboard Runtime v2.0</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>🧠 Gilligan Copilot Breather</h1>
+    <div id="gilliganComment" class="gilligan-comment">Initializing...</div>
+  </div>
+
+  <div class="dashboard">
+
+    <!-- Phase Display -->
+    <section class="phase-section">
+      <h2>Phase Breather</h2>
+      <div id="phaseStatus" class="phase-status">Current Phase: Φ1</div>
+    </section>
+
+    <!-- Symbolic Field Overlay -->
+    <section class="field-section">
+      <h2>Symbolic Field Overlay</h2>
+      <canvas id="fieldCanvas"></canvas>
+    </section>
+
+    <!-- Symbolic Charge -->
+    <section class="charge-section">
+      <h2>Symbolic Capacitor Charge</h2>
+      <div class="charge-bar">
+        <div id="chargeBarInner" class="charge-bar-inner">100%</div>
+      </div>
+    </section>
+
+    <!-- Drift Log -->
+    <section class="drift-section">
+      <h2>Drift Arbitration Monitor</h2>
+      <div id="driftLog" class="drift-log">Waiting for drift data...</div>
+    </section>
+
+    <!-- Memory Stack -->
+    <section class="memory-section">
+      <h2>Memory Stack Status</h2>
+      <div id="activeThreads">Active Threads: 0</div>
+      <div id="symbolicLoad">Symbolic Load: 0%</div>
+    </section>
+
+    <!-- System Console -->
+    <section class="console-section">
+      <h2>System Console Output</h2>
+      <pre id="systemConsole" class="system-console">
+[System initialized.]
+      </pre>
+    </section>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="/static/dashboard.js"></script>
+  <script src="/static/field_overlay_renderer.js"></script>
+  <script src="/static/memory_stack_panel.js"></script>
+  <script src="/static/copilot_voice_panel.js"></script>
+
+
+</body>
+</html>
