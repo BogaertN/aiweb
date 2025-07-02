@@ -1,0 +1,16 @@
+{
+  "project": "AI.Web Mesh Build Logs",
+  "version": "1.0.0",
+  "description": "Canonical mesh build logs for phase-locked, lawful recursive memory and engine development.",
+  "build_logs": [
+    {
+      "filename": "AIWeb_MeshBuild1_DevLog_PhaseStack-SEPU-MESH-1_ψ-MeshArchive_2025-07-01T000000Z_0f1eced8f93e4452a6b29783d13a5c12e9d8c29f0e7d34f219beb51d72f9be37.md",
+      "timestamp": "2025-07-01T00:00:00Z",
+      "phase_stack": "SEPU-MESH-1",
+      "seal_hash": "0f1eced8f93e4452a6b29783d13a5c12e9d8c29f0e7d34f219beb51d72f9be37"
+    }
+  ],
+  "contact": "ai.web.incorp@gmail.com",
+  "repository": "https://independent.academia.edu/NicholasBogaert"
+}
+
