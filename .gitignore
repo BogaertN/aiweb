@@ -1,0 +1,8 @@
+# Ignore OS cruft and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+archive/
+logs/
